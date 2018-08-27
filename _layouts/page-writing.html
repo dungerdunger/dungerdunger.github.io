@@ -5,9 +5,3 @@ layout: default
 <h2>{{ page.title }}</h2>
 	{{ content }}
 
-<ul>
-{% for piece_hash in site.data.pieces %}
-{% assign piece = piece_hash[1] %}
-	<li>{{ piece.title }}</li>
-{% endfor %}
-</ul>
