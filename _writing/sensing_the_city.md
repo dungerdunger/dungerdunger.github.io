@@ -6,4 +6,5 @@ type: feature
 teaser: With the Array of Things program, environmental inequity meets urban technology
 link: https://projects.southsideweekly.com/sensing-the-city/
 featured: true
+img: assets/img/array.jpg
 ---

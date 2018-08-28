@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+img: 
 ---
 
 MY NAME IS DAVID J. UNGER, and I am a writer and designer.
