@@ -6,8 +6,22 @@ layout: default
 	{{ content }}
 
 <ul>
-{% for project_hash in site.data.projects %}
-{% assign project = project_hash[1] %}
-	<li>{{ project.title }}</li>
+{% assign items = site.design | sort: 'pubdate' %}
+{% for item in items reversed %}
+	<li>
+		<h4 class="kicker">{{ item.type }}</h4>
+		<h3>{{ item.title }}</h3>
+		<small>{{ item.client }} &nbsp;&bull;&nbsp;</small>
+		<small>{{ item.pubdate | date: "%B %Y" }}</small>
+		<p>{{ item.teaser }}</p>
+		<ul>
+		{% for tag in item.tags %}	
+			<li>{{ tag }}</li>
+		{% endfor %}
+		</ul>
+		{% if item.link %}
+			<a href="{{ item.link }}" class="btn" target="_blank">Visit Site</a>
+		{% endif %}
+	</li>
 {% endfor %}
 </ul>
