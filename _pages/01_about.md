@@ -4,7 +4,14 @@ title: About
 permalink: /about/
 ---
 
-About content yo yo yo
+MY NAME IS DAVID J. UNGER, and I am a writer and designer.
 
-* Trying a list item
-* here's another list item
+I attended Oberlin College for undergrad, and I received my M.S.J. from Northwestern University's Medill School of Journalism. 
+
+I currently live with my wife [Rachel Kelly Unger](https://www.press.uchicago.edu/books/editorbio/rkelly.html){:target="_blank"} in Chicago's Hyde Park neighborhood. 
+
+Want to work together or just say "hi"? Email me at [david at dju.me](mailto:david@dju.me)!
+
+
+"Who's there?"
+– Hamlet (1.1.1)

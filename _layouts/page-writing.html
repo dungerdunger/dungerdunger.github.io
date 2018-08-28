@@ -6,7 +6,7 @@ layout: default
 	{{ content }}
 
 <ul>
-{% assign items = site.writing | sort: 'pubdate' %}
+{% assign items = site.writing | where: "featured", true | sort: 'pubdate'  %}
 {% for item in items reversed %}
 	<li class="item">
 		<h4 class="item-kicker">{{ item.type }}</h4>
