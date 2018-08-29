@@ -7,4 +7,5 @@ teaser: After oil prices plummeted, Williston residents were left wondering if t
 link: https://www.theatlantic.com/business/archive/2016/08/can-a-north-dakota-oil-town-break-the-boom-bust-cycle/494747/
 featured: true
 img: assets/img/boom.jpg
+show_on_home: true
 ---

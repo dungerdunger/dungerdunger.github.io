@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-img: 
+img: /assets/img/dju.jpg
 ---
 
 MY NAME IS DAVID J. UNGER, and I am a writer and designer.
@@ -15,6 +15,25 @@ Want to work together or just say "hi"? Email me at [david at dju.me](mailto:dav
 
 You can learn more about me on my resume.
 
+
+##Skills
+
+* HTML/CSS/JS
+* Wordpress
+* Git
+* InDesign
+* Illustrator
+* Photoshop
+* Writing
+* Editing
+
+#Interests
+
+* The Midwest
+* Turbofans
+* Computers
+* Technology
+
 #Gear
 * cameras:
 * desktop:
@@ -22,6 +41,7 @@ You can learn more about me on my resume.
 * acoustic:
 * electric:
 * soap:
+
 
 
 "Who's there?"

@@ -2,5 +2,9 @@
 layout: default
 ---
 
+{% if page.img %}
+	<img src="{{ site.url }}/{{ page.img }}" alt="">
+{% endif %}
+
 <h2>{{ page.title }}</h2>
 	{{ content }}

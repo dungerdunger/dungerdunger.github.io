@@ -7,4 +7,5 @@ teaser: Scientists call the American prairie one of the most threatened ecosyste
 link: https://undark.org/article/saving-americas-broken-prairie/
 featured: true
 img: assets/img/prairie.jpg
+show_on_home: true
 ---

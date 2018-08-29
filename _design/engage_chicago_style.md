@@ -10,5 +10,6 @@ tags:
   - InDesign
   - Photoshop
 img: assets/img/hotdog-detail-3000w.jpg
+show_on_home: true
 ---
 
