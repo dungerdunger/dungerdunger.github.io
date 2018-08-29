@@ -8,5 +8,6 @@ link: http://www.nuvotes.org
 tags:
   - wordpress
   - html
+img: assets/img/nuvotes_website-detail-3192w.jpg
 ---
 

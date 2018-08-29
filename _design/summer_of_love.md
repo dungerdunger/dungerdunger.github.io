@@ -9,5 +9,6 @@ tags:
   - Illustrator
   - InDesign
   - Photoshop
+img: assets/img/sol-blank-detail-3000w.jpg
 ---
 

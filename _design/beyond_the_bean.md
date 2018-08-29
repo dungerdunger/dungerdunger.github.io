@@ -9,5 +9,6 @@ tags:
   - Illustrator
   - InDesign
   - Photoshop
+img: assets/img/beyond_the_bean-detail-3000w.jpg
 ---
 

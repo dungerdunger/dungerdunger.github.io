@@ -9,5 +9,6 @@ tags:
   - wordpress
   - html
   - photoshop
+img: assets/img/dju_website-detail.jpg
 ---
 

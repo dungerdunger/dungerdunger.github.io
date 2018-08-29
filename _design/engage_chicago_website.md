@@ -9,5 +9,6 @@ tags:
   - wordpress
   - html
   - photoshop
+img: assets/img/ec_website-detail-3782w.jpg
 ---
 
