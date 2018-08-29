@@ -3,17 +3,14 @@
 		<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
 	</div>
 	<nav>
-		<ul>
-		{% for page in site.pages %} 
-			{% if page.title %}
-				<li>
-					
-					{% include {{ page.title | downcase | prepend: '/svg/' | append: '.svg'}} %}
-					
-					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-				</li>
-			{% endif %} 
-		{% endfor %}
-		</ul>
+	{% for page in site.pages %} 
+		{% if page.title %}		
+			<a class="nav-page" href="{{ page.url | prepend: site.baseurl }}">
+				{% include {{ page.title | downcase | prepend: '/svg/' | append: '.svg'}} %}
+				<p class="nav-page-title">{{ page.title }}</p>
+			</a>
+		{% endif %} 
+	{% endfor %}
+		
 	</nav>
 </header>

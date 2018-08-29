@@ -7,13 +7,13 @@ layout: default
 {% assign items = site.design %}
 {% for item in items %}
 	{% if item.show_on_home == true %}
-		<img src="{{ site.url }}/{{ item.img }}" alt="">
+		<div class="base-image" style="background:url('{{ site.url }}/{{ item.img }}'); background-size:cover;"></div>
 	{% endif %}
 {% endfor %}
 {% assign items = site.writing %}
 {% for item in items %}
 	{% if item.show_on_home == true %}
-		<img src="{{ site.url }}/{{ item.img }}" alt="">
+		<div class="base-image" style="background:url('{{ site.url }}/{{ item.img }}'); background-size:cover;"></div>
 	{% endif %}
 {% endfor %}
 </div>

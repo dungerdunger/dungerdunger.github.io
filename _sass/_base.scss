@@ -1,0 +1,23 @@
+$black: #555;
+
+$serif: Serif;
+$sans: sans-serif;
+
+$shadow1: 0px 0px 10px rgba(0, 0, 0, .5);
+
+html {
+	font-family:$serif;
+	color:$black;
+	body {
+		header {
+			a {
+				text-decoration:none;
+				color:inherit;
+			}
+		}
+	}
+}
+
+img {
+	max-width:100%;
+}
