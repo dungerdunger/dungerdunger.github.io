@@ -3,6 +3,8 @@ layout: page-writing
 title: Writing
 permalink: /writing/
 img: assets/img/boom.jpg
+img-background_size: auto 100%
+img-background_position: center
 icon: pencil
 ---
 

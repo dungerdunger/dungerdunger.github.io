@@ -9,7 +9,7 @@ layout: default
 <h2>{{ page.title }}</h2>
 	{{ content }}
 
-<ul>
+<ul class="items">
 {% assign items = site.design | sort: 'pubdate' %}
 {% for item in items reversed %}
 	<li>

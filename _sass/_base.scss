@@ -5,19 +5,31 @@ $sans: sans-serif;
 
 $shadow1: 0px 0px 10px rgba(0, 0, 0, .5);
 
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html {
+	margin:0;
 	font-family:$serif;
 	color:$black;
 	body {
+		margin:0;
 		header {
 			a {
 				text-decoration:none;
 				color:inherit;
-			}
+			}  
+		}
+		main {
 		}
 	}
 }
 
 img {
 	max-width:100%;
-}
+}  
