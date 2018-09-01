@@ -1,5 +1,4 @@
 $black: #555;
-
 $serif: Serif;
 $sans: sans-serif;
 
@@ -13,21 +12,41 @@ $shadow1: 0px 0px 10px rgba(0, 0, 0, .5);
 	box-sizing: border-box;
 }
 
+
+h1, h2, h3, header {
+	a {
+		text-decoration:none;
+		color:inherit;
+	}
+} 
+
+// reset margins around text 
+
+h1, h2, h3, h4, p {
+	margin-top:0;
+	margin-bottom:1rem;
+
+}
+
+
+p {
+	font-size: 1rem;
+	a {
+		color:inherit;
+	}
+}
+
+
+
 html {
 	margin:0;
 	font-family:$serif;
 	color:$black;
-	body {
-		margin:0;
-		header {
-			a {
-				text-decoration:none;
-				color:inherit;
-			}  
-		}
-		main {
-		}
-	}
+	font-size:14px;
+}
+
+body {
+	margin:0;
 }
 
 img {

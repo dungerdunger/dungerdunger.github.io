@@ -1,5 +1,11 @@
 $nav_height: 65px;
+$brand: 'Cormorant Garamond', $serif;
+$serif: 'EB Garamond', $serif;
+$sans-serif: 'Josefin Sans', sans-serif;
 
+$color1:#444;
+$color1-light:lighten($color1, 30%);
+$color1-lightest:lighten($color1, 50%);
 
 .full {
 	margin-left:-15px; 
@@ -13,9 +19,13 @@ ul.items {
 
 }
 
-
 body {
-	color:#333;
+	color:$color1;
+	font-family:$serif;
+	font-weight:400;
+	h1, h2, h3 {
+		font-family:$sans-serif;
+	}
 	header {
 		#branding {
 			box-shadow:$shadow1;
@@ -28,6 +38,9 @@ body {
 			//height:60px;
 			h1 {
 				margin:0;
+				font-family:$brand;
+				font-weight:700;
+				text-align:center;
 			}
 		}
 		nav {
@@ -45,12 +58,15 @@ body {
 				background:#fff;
 				padding:20px;
 				border-right:solid 1px #eee;
-				fill:$black;
+				fill:$color1-lightest;
 				display:flex;
 				align-items:center;
 				p.nav-page-title {
 					display:none;
 				}	
+				&.active {
+					fill:$color1;
+				}
 			}		
 		}
 	}
@@ -68,6 +84,12 @@ body {
 		margin:0 15px;
 		padding-bottom:$nav_height;  
 	}
+	main > * {
+		max-width: 1000px;
+		@media (min-width: 800px) {
+			margin: 0 auto;
+		}
+	}
 }
 
 
@@ -80,6 +102,14 @@ body#writing, body#design {
 		width:calc(100% + 15px);
 		margin-top:40vh;
 		box-shadow: $shadow1;
+		h2 {
+			font-size:1.25rem;
+			font-weight:300;
+			color:$color1-light;
+		}
+		p:first-of-type {
+			font-size:2rem;
+		}
 	}
 }
 
