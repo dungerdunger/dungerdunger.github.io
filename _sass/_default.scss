@@ -52,3 +52,17 @@ body {
 img {
 	max-width:100%;
 }  
+
+ul.tags {
+	list-style:none;
+	padding:0;
+	display:flex;
+	margin-bottom:10px;
+	li {
+		margin-right:3px;
+		border-radius:3px;
+		padding:2px 5px;
+		background:#bbb;
+		color:#fff;
+	}
+}

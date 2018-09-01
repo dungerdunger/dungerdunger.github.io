@@ -6,27 +6,33 @@ layout: default
 <div id="base">
 	<img src="{{ site.url }}/{{ page.img }}" alt="">
 </div>
-<h2>{{ page.title }}</h2>
+<section id="page-intro">
+	<h2>{{ page.title }}</h2>
 	{{ content }}
+</section>	
 
-<ul class="items">
-{% assign items = site.design | sort: 'pubdate' %}
-{% for item in items reversed %}
-	<li>
-		<img src="{{ site.url }}/{{ item.img }}" alt="">
-		<h4 class="kicker">{{ item.type }}</h4>
-		<h3>{{ item.title }}</h3>
-		<small>{{ item.client }} &nbsp;&bull;&nbsp;</small>
-		<small>{{ item.pubdate | date: "%B %Y" }}</small>
-		<p>{{ item.teaser }}</p>
-		<ul>
-		{% for tag in item.tags %}	
-			<li>{{ tag }}</li>
-		{% endfor %}
-		</ul>
-		{% if item.link %}
-			<a href="{{ item.link }}" class="btn" target="_blank">Visit Site</a>
-		{% endif %}
-	</li>
-{% endfor %}
-</ul>
+<section id="page-portfolio">
+	<ul class="items">
+	{% assign items = site.design | sort: 'pubdate' %}
+	{% for item in items reversed %}
+		<li class="item">
+			<img src="{{ site.url }}/{{ item.img }}" alt="">
+			<div class="item-text">
+				<h4 class="item-kicker">{{ item.type }}</h4>
+				<h3 class="item-title">{{ item.title }}</h3>
+				<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
+				<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
+				<p>{{ item.teaser }}</p>
+				<ul class="tags">
+				{% for tag in item.tags %}	
+					<li class="tag" >{{ tag }}</li>
+				{% endfor %}
+				</ul>
+				{% if item.link %}
+					<!-- <a href="{{ item.link }}" class="btn" target="_blank">Visit Site</a>-->
+				{% endif %}
+			</div>
+		</li>
+	{% endfor %}
+	</ul>
+</section>
