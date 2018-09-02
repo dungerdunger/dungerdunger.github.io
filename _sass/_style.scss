@@ -1,4 +1,4 @@
-$nav_height: 65px;
+$nav_height: 50px;
 $brand: 'Cormorant Garamond', $serif;
 $serif: 'EB Garamond', $serif;
 $sans-serif: 'Josefin Sans', sans-serif;
@@ -20,17 +20,17 @@ ul.items {
 		display:grid;
 		margin-bottom:20px;
 		img {	
+			width:calc(100% - 15px);
 		}
 		.item-text {
 			margin-top:-40px;
 			background:#fff;
-			z-index:1;
-			//width:80%;
 			margin-right:40px;
 			padding-top:20px;
 			padding-left:15px;
 			padding-right:10px;
 			margin-left:0;
+			margin-bottom:40px;
 			h4.item-kicker {
 				margin-bottom:5px;
 			}
@@ -43,6 +43,9 @@ ul.items {
 				display:inline-block;
 				margin-bottom:5px;
 				color:$color1-light;
+			}
+			small.item-client {
+				font-style:italic;
 			}
 			p {
 				margin-bottom:10px;
@@ -76,9 +79,9 @@ body {
 		#branding {
 			box-shadow:$shadow1;
 			background:#fff;
-			//position:fixed;
-			//top:0;
-			//left:0;
+			position:fixed;
+			top:0;
+			left:0;
 			width:100%;
 			padding:15px 7px;
 			//height:60px;
@@ -93,7 +96,7 @@ body {
 			background:#fff;
 			box-shadow:$shadow1;
 			position:fixed;
-			z-index:3;
+			z-index:4;
 			bottom:0;
 			left:0;
 			width:100%;
@@ -108,6 +111,10 @@ body {
 				fill:$color1-lightest;
 				display:flex;
 				align-items:center;
+				justify-content:center;
+				svg {
+					width:80%;
+				}
 				p.nav-page-title {
 					display:none;
 				}	
@@ -140,24 +147,40 @@ body {
 }
 
 
+body#home {
+	header {
+		nav {
+			a.nav-page {
+				fill: $color1;
+			}
 
-body#writing, body#design {
+		}
+	}
+}
+
+body.internal {
 	main {
 		background:#fff;
 		padding-left:30px;
 		padding-right:15px;
-		padding-top:30px;
+		padding-top:20px;
 		padding-bottom:30px;
 		margin-left:-15px;
 		width:calc(100% + 15px);
-		margin-top:40vh;
+		margin-top:50vh;
 		box-shadow: $shadow1;
+		#base {
+			.base-image {
+				height:50vh;
+			}
+		}
 		section#page-intro {
 			margin-bottom:30px;
 			h2 {
 				font-size:1.25rem;
 				font-weight:300;
 				color:$color1-light;
+				margin-bottom:2px;
 			}
 			p:first-of-type {
 				font-size:2rem;

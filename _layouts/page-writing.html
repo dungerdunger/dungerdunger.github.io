@@ -18,8 +18,9 @@ layout: default
 			<div class="item-text">
 				<h4 class="item-kicker">{{ item.type }}</h4>
 				<h3 class="item-title"><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
-				<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
-				<small class="item-pubdate">{{ item.pubdate | date: "%B %d, %Y" }}</small>
+				<small class="item-client">{{ item.client }}</small>
+				<small>&nbsp;&bull;&nbsp;</small>
+				<small class="item-pubdate">{{ item.pubdate | date: "%b. %-d, %Y" }}</small>
 				<p class="item-teaser">{{ item.teaser }}</p>
 			</div>
 		</li>
