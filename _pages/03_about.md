@@ -5,7 +5,7 @@ permalink: /about/
 img: /assets/img/dju.jpg
 ---
 
-MY NAME IS DAVID J. UNGER, and I am a writer and designer.
+My name is David J. Unger, and I am a writer and designer.
 
 I attended Oberlin College for undergrad, and I received my M.S.J. from Northwestern University's Medill School of Journalism. 
 
@@ -16,7 +16,7 @@ Want to work together or just say "hi"? Email me at [david at dju.me](mailto:dav
 You can learn more about me on my resume.
 
 
-##Skills
+## Skills
 
 * HTML/CSS/JS
 * Wordpress
@@ -27,14 +27,14 @@ You can learn more about me on my resume.
 * Writing
 * Editing
 
-#Interests
+## Interests
 
 * The Midwest
 * Turbofans
 * Computers
 * Technology
 
-#Gear
+## Gear
 * cameras:
 * desktop:
 * laptop:
