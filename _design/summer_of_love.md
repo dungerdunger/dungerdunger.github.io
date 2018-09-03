@@ -10,6 +10,12 @@ tags:
   - InDesign
   - Photoshop
 img: assets/img/sol-blank-detail-3000w.jpg
-published: false
+published: true
 ---
 
+
+
+![initial thoughts](../assets/img/sol-initial_thoughts.jpg)
+![sol wordmark sketch](../assets/img/sol-sketch-wordmark.jpg)
+![sol program cover](../assets/img/sol-program_cover.svg)
+![sol nametag](../assets/img/sol-nametag.svg)

@@ -14,7 +14,7 @@ layout: default
 	{% assign items = site.design | sort: 'pubdate' %}
 	{% for item in items reversed %}
 		<li class="item">
-			<img src="{{ site.url }}/{{ item.img }}" alt="">
+			<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
 			<div class="item-text">
 				<h4 class="item-kicker">{{ item.type }}</h4>
 				<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>

@@ -20,4 +20,6 @@ The old website for Northwestern University's summer field-study program was clu
 <small>after</small>
 ![about](../assets/img/ec-about.jpg)
 ![home path](../assets/img/ec-home_path.png)
+![program sketch](../assets/img/ec-sketches-program.jpg)
+![program work](../assets/img/ec-program-work.png)
 
