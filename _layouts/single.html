@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="base">
+	<div class="base-image" style="background:url('{{ site.url }}/{{ page.img }}'); background-size:{{ page.img-background_size }}; background-position:{{ page.img-background_position }};"></div>
+</div>
+
+<section id="page-intro">
+	<h2>{{ page.collection | capitalize }}</h2>
+</section>
+<article class="page-content">
+		<h4 class="item-kicker">{{ page.type }}</h4>
+		<h3 class="item-title">{{ page.title }}</h3>
+		<small class="item-client">{{ page.client }} &nbsp;&bull;&nbsp;</small>
+		<small class="item-pubdate">{{ page.pubdate | date: "%B %Y" }}</small>
+		{{ content }}
+		<ul class="tags">
+		{% for tag in item.tags %}	
+			<li class="tag" >{{ tag }}</li>
+		{% endfor %}
+		</ul>
+</article>
+	

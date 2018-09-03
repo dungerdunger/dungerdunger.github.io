@@ -37,11 +37,17 @@ collections:
     output: true
   design:
     output: true
+    permalink: /design/:name
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: ""
+      type: "design"
+    values:
+      layout: single
 
 
 # Exclude from processing.

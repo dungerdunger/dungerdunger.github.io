@@ -3,6 +3,8 @@ layout: page-design
 title: Design
 permalink: /design/
 img: assets/img/benchmarking-detail-3304w.jpg
+img-background_size: auto 130%
+img-background_position: 100% 0
 ---
 
 I design print and digital materials for non-profits, small businesses, and publications. 
