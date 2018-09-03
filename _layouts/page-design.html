@@ -21,14 +21,8 @@ layout: default
 				<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
 				<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
 				<p>{{ item.teaser }}</p>
-				<ul class="tags">
-				{% for tag in item.tags %}	
-					<li class="tag" >{{ tag }}</li>
-				{% endfor %}
-				</ul>
-				{% if item.link %}
-					<!-- <a href="{{ item.link }}" class="btn" target="_blank">Visit Site</a>-->
-				{% endif %}
+				
+
 			</div>
 		</li>
 	{% endfor %}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	<body id="{% if page.title %}{{ page.title | downcase }}{% else %}home{% endif %}" class="{% if page.title %}internal{% endif %}" >
+	<body id="{% if page.title %}{{ page.title | downcase | replace: ' ', '_' }}{% else %}home{% endif %}" class="{% if page.title %}internal{% endif %}{% if page.collection %} single-{{ page.collection }} {% endif %}" >
 		{% include header.html %}
 		<main>
 			{{ content }}

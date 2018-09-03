@@ -8,5 +8,6 @@ link:
 tags:
   - photoshop
 img: assets/img/.jpg
+published: false
 ---
 

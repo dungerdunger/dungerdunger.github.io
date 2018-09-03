@@ -15,7 +15,7 @@ I currently live with my wife [Rachel Kelly Unger](https://www.press.uchicago.ed
 
 Want to work together or just say "hi"? Email me at [david at dju.me](mailto:david@dju.me)!
 
-You can learn more about me on my resume.
+<!-- You can learn more about me on my resume.-->
 
 
 ### Skills

@@ -9,5 +9,6 @@ tags:
   - wordpress
   - html
 img: assets/img/nuvotes_website-detail-3192w.jpg
+published: false
 ---
 
