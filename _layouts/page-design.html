@@ -5,11 +5,11 @@ layout: default
 	<div class="base-image" style="background:url('{{ site.url }}/{{ page.img }}'); background-size:{{ page.img-background_size }}; background-position:{{ page.img-background_position }};"></div>
 </div>
 
-<section id="page-intro">
+<section id="page-intro" class="contain">
 	<h2>{{ page.title }}</h2>
 	{{ content }}
 </section>	
-<section id="page-portfolio">
+<section id="page-portfolio" class="contain">
 	<ul class="items">
 	{% assign items = site.design | sort: 'pubdate' %}
 	{% for item in items reversed %}
@@ -20,7 +20,7 @@ layout: default
 				<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
 				<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
 				<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
-				<p>{{ item.teaser }}</p>
+				<p class="item-teaser">{{ item.teaser }}</p>
 				
 
 			</div>
