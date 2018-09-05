@@ -3,7 +3,6 @@
 		<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
 	</div>
 	<nav>
-
 	{% for node in site.pages %} 
 		{% if node.title %}		
 			{% assign downtitle = node.title | downcase %}
@@ -12,7 +11,6 @@
 				<p class="nav-page-title">{{ node.title }}</p>
 			</a>
 		{% endif %} 
-	{% endfor %}
-		
+	{% endfor %}		
 	</nav>
 </header>

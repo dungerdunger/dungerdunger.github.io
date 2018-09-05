@@ -11,21 +11,29 @@ $color1-lightest:lighten($color1, 50%);
 	max-width:1000px;
 	margin-left:10px;
 	margin-right:10px;
-	@media (min-width:700px) {
+	@media (min-width:1000px) {
 		margin-left:auto;
 		margin-right:auto;
+		padding-left:10%;
+		padding-right:10%;
 	}
 }
 
 ul.items {
 	list-style:none;
 	padding:0;
-	
+	@media (min-width:1000px) {
+		column-count:2;
+		column-gap:40px;
+	}
 }
 
 .item {
 		display:grid;
 		margin-bottom:20px;
+		-webkit-column-break-inside: avoid;
+		          page-break-inside: avoid;
+		               break-inside: avoid;
 		img {	
 			//width:calc(100% - 15px);
 		}
@@ -117,6 +125,15 @@ body {
 		font-family:$sans-serif;
 	}
 	header {
+		@media (min-width:1000px) {
+			height:100%;
+			width:61px;
+			position:fixed;
+			background:#fff;
+			box-shadow:$shadow1;
+			top:0;
+			left:0;
+		}
 		#branding {
 			box-shadow:$shadow1;
 			background:#fff;
@@ -126,12 +143,22 @@ body {
 			width:100%;
 			padding:15px 7px;
 			//height:60px;
+			@media (min-width:1000px) {
+				background:none;
+				position:static;
+				box-shadow:none;
+			}
 			h1 {
 				margin:0;
 				font-family:$brand;
 				font-weight:700;
 				text-align:center;
 				font-size:1.75rem;
+				@media (min-width: 1000px) {
+					//transform:rotate(90deg);
+					//transform-origin: bottom left;
+					writing-mode: vertical-rl;
+				}
 			}
 		}
 		nav {
@@ -144,6 +171,14 @@ body {
 			width:100%;
 			height: $nav_height;
 			display:flex;
+			@media (min-width:1000px) {
+				position:absolute;
+				bottom:0;
+				flex-direction:column;
+				height:auto;
+				box-shadow:none;
+
+			}
 			a.nav-page {
 				text-decoration:none;
 				display:block;
@@ -154,6 +189,14 @@ body {
 				display:flex;
 				align-items:center;
 				justify-content:center;
+				@media (min-width:1000px) {
+					border-right:none;
+					border-top:solid 1px #eee;
+					padding-right:15px;
+					padding-left:15px;
+					padding-top:13px;
+					padding-bottom:13px;
+				}
 				svg {
 					width:80%;
 				}
@@ -163,6 +206,10 @@ body {
 				&.active {
 					fill:$color1;
 					border-bottom:solid 2px $color1;
+					@media (min-width:1000px) {
+						border-bottom:none;
+						border-left:solid 2px $color1;
+					}
 				}
 			}		
 		}
@@ -175,6 +222,10 @@ body {
 		div.base-image {
 			width:100vw;
 			height:100vh;
+			@media (min-width:1000px) {
+				background-size:cover !important;
+				background-position:center !important;
+			}
 		}
 	}
 	main {
@@ -212,9 +263,18 @@ body.internal {
 		//width:calc(100% + 15px);
 		margin-top:60vh;
 		box-shadow: $shadow1;
+		@media (min-width:1000px) {
+			margin-left:64px;
+			margin-top:3px;
+			max-width:884px;
+			padding-top:80px;
+		}
 		#base {
 			.base-image {
 				height:60vh;
+				@media (min-width:1000px) {
+					height:100vh;
+				}
 			}
 		}
 		section#page-intro {
