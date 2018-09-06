@@ -16,7 +16,7 @@ layout: default
 		<section id="personal_data" class="contain">
 			<div class="personal_data-group">
 				<h2>Skills</h2>
-				<ul class="skills">
+				<ul id="skills">
 				{% for skill in site.data.personal_data.skills %}
 					<li class="skill">
 						<div class="img-wrapper">
@@ -30,7 +30,7 @@ layout: default
 			
 			<div class="personal_data-group">
 				<h2>Interests</h2>
-				<ul>
+				<ul id="interests">
 				{% for interest in site.data.personal_data.interests %}
 					<li>{{ interest }}</li>
 				{% endfor %}
@@ -39,10 +39,13 @@ layout: default
 
 			<div class="personal_data-group">
 				<h2>Gear</h2>
-				<ul>
+				<ul id="gear">
 				{% for gear in site.data.personal_data.gear %}
 					{% for subitem in gear %}
-					<li>{{ subitem[0] }}: {{ subitem[1] }}</li>
+					<li>
+						<h3>{{ subitem[0] }}</h3> 
+						<h4>{{ subitem[1] }}</h4>
+					</li>
 					{% endfor %}
 				{% endfor %}
 				</ul>
