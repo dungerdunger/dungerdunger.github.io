@@ -18,33 +18,4 @@ Want to work together or just say "hi"? Email me at [david at dju.me](mailto:dav
 <!-- You can learn more about me on my resume.-->
 
 
-### Skills
-
-* HTML/CSS/JS
-* Wordpress
-* Git
-* InDesign
-* Illustrator
-* Photoshop
-* Writing
-* Editing
-
-### Interests
-
-* The Midwest
-* Turbofans
-* Computers
-* Technology
-
-### Gear
-* cameras:
-* desktop:
-* laptop:
-* acoustic:
-* electric:
-* soap:
-
-
-
-"Who's there?"
-– Hamlet (1.1.1)
+"Who's there?" <br /> – *Hamlet* (1.1.1)

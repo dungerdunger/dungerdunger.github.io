@@ -10,3 +10,45 @@ layout: default
 		<h2>{{ page.title }}</h2>
 		{{ content }}
 	</section>  
+
+	{% if page.title == "About" %}
+
+		<section id="personal_data" class="contain">
+			<div class="personal_data-group">
+				<h2>Skills</h2>
+				<ul class="skills">
+				{% for skill in site.data.personal_data.skills %}
+					<li class="skill">
+						<div class="img-wrapper">
+							<img src="../assets/img/{{ skill.icon }}" alt="{{ skill.title }}"> 	
+						</div>						
+						<p>{{ skill.title }}</p>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+			
+			<div class="personal_data-group">
+				<h2>Interests</h2>
+				<ul>
+				{% for interest in site.data.personal_data.interests %}
+					<li>{{ interest }}</li>
+				{% endfor %}
+				</ul>
+			</div>
+
+			<div class="personal_data-group">
+				<h2>Gear</h2>
+				<ul>
+				{% for gear in site.data.personal_data.gear %}
+					{% for subitem in gear %}
+					<li>{{ subitem[0] }}: {{ subitem[1] }}</li>
+					{% endfor %}
+				{% endfor %}
+				</ul>
+			</div>
+			
+		</section>
+
+
+	{% endif %}
