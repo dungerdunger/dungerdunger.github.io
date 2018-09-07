@@ -20,5 +20,6 @@ I built a handmade wedding website with help from my now-wife. We had a lot of f
 ![rkdu sketch](../assets/img/rkdu-sketch-x2.jpg)
 ![rkdu dog](../assets/img/rkdu-dog.jpg)
 ![rkdu map](../assets/img/rkdu-map.png)
+![rkdu stmary](../assets/img/rkdu-stmary.jpg)
 ![rkdu gallery](../assets/img/rkdu-gallery.jpg)
 
