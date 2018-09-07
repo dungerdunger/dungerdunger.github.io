@@ -9,7 +9,7 @@ tags:
   - HTML
   - Leaflet
   - Data
-img: assets/img/benchmarking-detail-3304w.jpg
+img: assets/img/benchmarking-big-blank.jpg
 published: true
 ---
 

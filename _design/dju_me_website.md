@@ -6,14 +6,15 @@ type: web design
 teaser: The custom, Jekyll-generated static portfolio website you are currently perusing 
 link: 
 tags: 
-  - wordpress
-  - html
+  - html/css/js
+  - jekyll
   - photoshop
+  - illustrator
 img: assets/img/paper.jpg
 published: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id suscipit, consequatur tempora iusto repudiandae voluptatem praesentium, quibusdam! Ea fugit officiis, doloribus, voluptates et ipsam id aliquid sint ad praesentium. Temporibus.
+
 
 ![boom](/assets/img/boom.jpg)
 

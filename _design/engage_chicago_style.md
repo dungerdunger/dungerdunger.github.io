@@ -1,5 +1,5 @@
 ---
-title: Engage-Chicago Style
+title: Hot Dogs!
 client: Northwestern University
 pubdate: 2018-04-01 
 type: marketing campaign

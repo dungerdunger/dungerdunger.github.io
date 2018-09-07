@@ -9,9 +9,11 @@ tags:
   - Illustrator
   - InDesign
   - Photoshop
-img: /assets/img/cfs-base.svg
-img-background_size: 100% auto
-img-background_position: bottom
+img: /assets/img/cfs-base_blank.svg
+img-background_size: cover
+img-background_position: center
+img-thumb: /assets/img/cfs-350_200.svg
+img-base: /assets/img/cfs-3000_2000.svg 
 show_on_home: false
 ---
 
@@ -19,5 +21,6 @@ Through a combination of academic coursework, field trips, and internship experi
 
 ![cfs brand guidelines](/assets/img/cfs-brand_guidelines.svg)
 ![cfs poster](/assets/img/cfs-poster.svg)
+![cfs brand wordmark](/assets/img/cfs-wordmark.jpg)
 ![cfs banner](/assets/img/cfs-banner.svg)
 {::comment}![cfs poster image](/assets/img/cfs-poster-image.jpg){:/comment}

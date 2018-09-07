@@ -2,7 +2,7 @@
 layout: page-design
 title: Design
 permalink: /design/
-img: assets/img/benchmarking-detail-3304w.jpg
+img: assets/img/benchmarking-big-blank.jpg
 img-background_size: auto 130%
 img-background_position: 100% 0
 ---
