@@ -13,17 +13,34 @@ layout: default
 <section id="page-portfolio" class="contain">
 	<ul class="items">
 	{% assign items = site.design | sort: 'pubdate' %}
-	{% for item in items reversed %}
-		<li class="item">
-			<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
-			<div class="item-text">
-				<h4 class="item-kicker">{{ item.type }}</h4>
-				<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
-				<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
-				<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
-				<p class="item-teaser">{{ item.teaser }}</p>				
-			</div>
-		</li>
-	{% endfor %}
+	{% assign halfItems = items.size | divided_by: 2.0 | ceil %}
+		<div class="col" id="col1">
+		{% for item in items reversed limit: halfItems %}
+			<li class="item">
+				<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
+				<div class="item-text">
+					<h4 class="item-kicker">{{ item.type }}</h4>
+					<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+					<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
+					<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
+					<p class="item-teaser">{{ item.teaser }}</p>				
+				</div>
+			</li>
+		{% endfor %}
+		</div>
+		<div class="col" id="col2">
+		{% for item in items reversed offset: halfItems %}
+			<li class="item">
+				<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
+				<div class="item-text">
+					<h4 class="item-kicker">{{ item.type }}</h4>
+					<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+					<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
+					<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
+					<p class="item-teaser">{{ item.teaser }}</p>				
+				</div>
+			</li>
+		{% endfor %}
+		</div>
 	</ul>
 </section>
