@@ -105,6 +105,9 @@ ul.items {
 			padding-right:10px;
 			margin-left:0;
 			margin-bottom:40px;			
+			@media (min-width:1000px) {
+				padding-left:0;
+			}
 		}
 	}
 
