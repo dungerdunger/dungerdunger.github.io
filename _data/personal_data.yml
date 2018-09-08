@@ -1,0 +1,56 @@
+skills:
+  - title: html/css/js
+    icon: html.png
+    description: Core coding languages for websites
+  - title: Jekyll
+    icon: jekyll.png
+    description: 
+  - title: Wordpress
+    icon: wordpress.png
+    description: Flexible, widely used publishing platform
+  - title: Git
+    icon: git.svg 
+    description: 
+  - title: InDesign  
+    icon: indesign.svg
+    description: Layout tool for print and web design
+  - title: Illustrator
+    icon: illustrator.svg
+    description: Vector-based drawing for logos and design elements
+  - title: Photoshop
+    icon: photoshop.svg
+    description: Image editing and touchup
+  - title: Mailchimp
+    icon: mailchimp.png
+    description: Powerful, user-friendly email marketing
+
+interests:
+  - The Midwest
+  - Chicago
+  - Turbofans
+  - Computers
+  - Technology
+  - Grasslands
+  - The Great Lakes
+  - Literature
+  - Christology
+  - Improv comedy
+  - Command-line interfaces
+  - Paper
+  - Containers
+
+gear:
+  - desktop: iMac (Retina 4K, 21.5-inch, Late 2015)
+  - laptop: HP Spectre
+  - text editors: Sublime Text, Vi
+  - host: GitHub Pages, Dreamhost
+  - cameras: Nikon D5100 (dslr), Cannon FTb (35mm)
+  - notebooks: Midori MD A5
+  - pencils: Dixon Ticonderoga No. 2
+  - typewriter: Smith-Corona Sterling 12
+  - acoustic: Sigma GCS3
+  - electric: PRS Santana SE
+  - soap: Dr. Bronners
+  
+
+

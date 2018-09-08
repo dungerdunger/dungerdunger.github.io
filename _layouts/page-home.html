@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+
+<div id="base">
+{% assign items = site.design %}
+{% for item in items %}
+	{% if item.show_on_home == true %}
+		<div class="base-image" id="base-image-{{ item.title | downcase | replace: ' ', '_'}}" style="background:url('{{ site.url }}/{{ item.img }}'); background-size:{{ item.img-background_size }}; background-position:{{ item.img-background_position }};"></div>
+	{% endif %}
+{% endfor %}
+{% assign items = site.writing %}
+{% for item in items %}
+	{% if item.show_on_home == true %}
+		<div class="base-image" id="base-image-{{ item.title | downcase | replace: ' ', '_'}}" style="background:url('{{ site.url }}/{{ item.img }}'); background-size:{{ item.img-background_size }}; background-position:{{ item.img-background_position }};"></div>
+	{% endif %}
+{% endfor %}
+</div>
+
+
+	{{ content }}
+
+<script>
+	window.onload = choosePic;
+	console.log("test");
+	var homePics = document.getElementsByClassName("base-image");
+	console.log(homePics);
+	function choosePic() {
+		for (var i = 0; i < homePics.length; i++) {
+			homePics[i].style.display = "none";
+		}
+		var randomNum = Math.floor(Math.random() * homePics.length);
+		var selectedPic = homePics[randomNum].id;
+		console.log(selectedPic);
+		document.getElementById(selectedPic).style.display = "block";
+	}
+</script>

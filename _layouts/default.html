@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	<body>
+	<body id="{% if page.title %}{{ page.title | downcase | replace: ' ', '_' }}{% else %}home{% endif %}" class="{% if page.title %}internal{% endif %}{% if page.collection %} single-{{ page.collection }} {% endif %}" >
 		{% include header.html %}
 		<main>
-			<article>
-				{{ content }}
-			</article>
+			{{ content }}
 		</main>
-		{% include footer.html %}
+		<!-- {% if page.url != "/" and page.title != "About" and page.title != "Design" and page.title != "Writing" %} 
+			<div id="related">				
+				{% if page.url contains "design" %}
+					{% assign items = site.design | sort: 'pubdate' %}
+					<ul>
+					{% for item in items reversed %}
+						<li class="item">
+							<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
+							<div class="item-text">
+								<h4 class="item-kicker">{{ item.type }}</h4>
+								<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+								<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
+								<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
+								<p class="item-teaser">{{ item.teaser }}</p>
+							</div>
+						</li>
+					{% endfor %}
+					</ul>
+				{% endif %}
+			</div>
+
+		{% endif %} -->
+
+
+
 	</body>
 </html>

@@ -1,0 +1,10 @@
+---
+title: Fail Again
+client: The Point
+pubdate: 2015-07-01 
+type: essay
+teaser: The Failure Festival in Boulder, Colorado tries to confront failure on its own terms.
+link: https://thepointmag.com/2015/examined-life/fail-again
+featured: true
+img: assets/img/fail.jpg
+---

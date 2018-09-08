@@ -1,13 +1,62 @@
 <head>
+	<!-- goog should be below only in production -->
+	{% if jekyll.environment == 'production' %}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90851034-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-90851034-1');
+	</script>
+	{% endif %}
+	
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<title>{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+
+	<!-- favicon -->
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- social -->
+	<meta property="og:title" content="{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+	<meta property="og:description" content="{% if page.teaser %}{{ page.teaser }}{% else %}My name is David J. Unger, and I am a writer and designer based in Chicago.{% endif %}"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="{{ site.url }}"/>
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@dungerdunger" />
+	<meta property="og:site_name" content="{{ site.title }}"/>
+	<meta property="og:image" content="{% if page.img %}{{ page.img }}{% else %}{{ site.pages[0].img }}{% endif %}"/>
+	<meta property="og:image:width" content="600"/>
+	<meta property="og:image:height" content="400"/>
+
+	<!-- fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|EB+Garamond:400,400i,700|Josefin+Sans:100,200,300,400,500,700|Montserrat:100,200,300,400,500,700|Source+Code+Pro:700" rel="stylesheet">
+    
+
 
 </head> 

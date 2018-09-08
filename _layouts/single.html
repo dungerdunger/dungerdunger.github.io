@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div id="base">
+	<div class="base-image" style="background:url('{{ site.url }}/{{ page.img }}'); background-size:{{ page.img-background_size }}; background-position:{{ page.img-background_position }};"></div>
+</div>
+
+<section id="page-intro" class="contain">
+	<h2>{{ page.collection | capitalize }}</h2>
+</section>
+<article class="page-content contain">
+	<div class="item-text">
+		<h4 class="item-kicker">{{ page.type }}</h4>
+		<h3 class="item-title">{{ page.title }}</h3>
+		<small class="item-client">{{ page.client }} &nbsp;&bull;&nbsp;</small>
+		<small class="item-pubdate">{{ page.pubdate | date: "%B %Y" }}</small>
+		{% if page.tags %}
+			<ul class="tags">
+			{% for tag in page.tags %}	
+				<li class="tag" >{{ tag }}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+		{% if page.link %}
+			<a href="{{ page.link }}" class="btn" target="_blank">Visit Site</a>
+		{% endif %}	
+	</div>
+	<div class="item-content">
+		{{ content }}
+	</div>
+</article>
+<section id="related" class="">				
+	{% if page.url contains "design" %}
+		{% assign items = site.design | sort: 'pubdate' %}
+		<ul>
+		{% for item in items reversed %}
+			{% if item.title != page.title %}
+				<li class="item">
+					<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
+					<div class="item-text">
+						<h4 class="item-kicker">{{ item.type }}</h4>
+						<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+						<small class="item-client">{{ item.client }} &nbsp;&bull;&nbsp;</small>
+						<small class="item-pubdate">{{ item.pubdate | date: "%B %Y" }}</small>
+						<p class="item-teaser">{{ item.teaser }}</p>
+					</div>
+				</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	{% endif %}
+</section>
+	

@@ -2,5 +2,56 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-	{{ content }}
+	<div id="base">
+		<div class="base-image" style="background:url('{{ site.url }}/{{ page.img }}'); background-size:{{ page.img-background_size }}; background-position:{{ page.img-background_position }};"></div>
+	</div>
+
+	<section id="page-intro" class="contain">
+		<h2>{{ page.title }}</h2>
+		{{ content }}
+	</section>  
+
+	{% if page.title == "About" %}
+
+		<section id="personal_data" class="contain">
+			<div class="personal_data-group">
+				<h2>Skills</h2>
+				<ul id="skills">
+				{% for skill in site.data.personal_data.skills %}
+					<li class="skill">
+						<div class="img-wrapper">
+							<img src="../assets/img/{{ skill.icon }}" alt="{{ skill.title }}"> 	
+						</div>						
+						<p>{{ skill.title }}</p>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+			
+			<div class="personal_data-group">
+				<h2>Interests</h2>
+				<ul id="interests">
+				{% for interest in site.data.personal_data.interests %}
+					<li>{{ interest }}</li>
+				{% endfor %}
+				</ul>
+			</div>
+
+			<div class="personal_data-group">
+				<h2>Gear</h2>
+				<ul id="gear">
+				{% for gear in site.data.personal_data.gear %}
+					{% for subitem in gear %}
+					<li>
+						<h3>{{ subitem[0] }}</h3> 
+						<h4>{{ subitem[1] }}</h4>
+					</li>
+					{% endfor %}
+				{% endfor %}
+				</ul>
+			</div>
+			
+		</section>
+
+
+	{% endif %}
