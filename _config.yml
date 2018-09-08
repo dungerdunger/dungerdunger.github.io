@@ -18,7 +18,7 @@ email: david@dju.me
 description: >
   A Chicago-based writer and designer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dungedunger.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dungedunger.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dungerdunger
 github_username: dungerdunger
 
