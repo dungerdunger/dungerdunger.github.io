@@ -466,7 +466,9 @@ body.internal {
 				width:100%;
 				background-size:cover;
 				background-position:center;
-
+				@media (min-width:1000px) {
+					display:none;
+				}
 			}
 		}
 		section#page-intro {
