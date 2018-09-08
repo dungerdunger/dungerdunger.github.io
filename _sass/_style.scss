@@ -450,12 +450,23 @@ body.internal {
 		}
 		#base {
 			.base-image {
-				height:100vh;
-				background-size: 100% auto !important;
-				background-position: 0 75px !important;
+				height:60vh;
+				background-size: cover !important; //100% auto !important;
+				background-position: center 75px !important;
 				@media (min-width:1000px) {
 					height:100vh;
+					background-position:center center !important;
 				}
+			}
+			.base-image-bottom {
+				position: fixed;
+				bottom:0;
+				left:0;
+				height:40vh;
+				width:100%;
+				background-size:cover;
+				background-position:center;
+
 			}
 		}
 		section#page-intro {
