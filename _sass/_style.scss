@@ -425,7 +425,7 @@ body#home {
 	header {
 		nav {
 			a.nav-page {
-				fill: $color1;
+				fill: lighten($color1, 5%);
 			}
 
 		}

@@ -7,7 +7,7 @@
 		{% if node.title %}		
 			{% assign downtitle = node.title | downcase %}
 			<a class="nav-page {% if node.url == page.url or downtitle == page.collection %} active {% endif %}" href="{{ node.url | prepend: site.baseurl }}">
-				{% include {{ node.title | downcase | prepend: '/svg/' | append: '.svg'}} %}
+				{% include {{ node.icon | downcase | prepend: '/svg/' | append: '.svg'}} %}
 				<p class="nav-page-title">{{ node.title }}</p>
 			</a>
 		{% endif %} 

@@ -5,7 +5,7 @@ permalink: /writing/
 img: assets/img/boom.jpg
 img-background_size: auto 100%
 img-background_position: center
-icon: pencil
+icon: writing
 ---
 
 I write features, essays, and reviews on technology, energy, the environment, the Midwest and everything else. 
