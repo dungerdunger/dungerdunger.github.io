@@ -184,6 +184,9 @@ ul#gear {
 	}
 	li {
 		margin-bottom:25px;
+		-webkit-column-break-inside: avoid;
+		          page-break-inside: avoid;
+		               break-inside: avoid;
 		h3 {
 			font-family:$sans-serif;
 			font-weight:normal;
@@ -363,12 +366,13 @@ body {
 				text-decoration:none;
 				display:block;
 				background:#fff;
-				padding:20px;
+				padding:12px;
 				border-right:solid 1px #eee;
 				fill:$color1-lightest;
 				display:flex;
 				align-items:center;
 				justify-content:center;
+				height:100%;
 				@media (min-width:1000px) {
 					border-right:none;
 					border-top:solid 1px #eee;
@@ -378,7 +382,8 @@ body {
 					padding-bottom:13px;
 				}
 				svg {
-					width:80%;
+					width:80%;  
+					height:100%;
 				}
 				p.nav-page-title {
 					display:none;
