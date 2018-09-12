@@ -1,6 +1,7 @@
 ---
 title: Sensing the City
 client: South Side Weekly
+client-logo: ssw.png
 pubdate: 2018-01-24 
 type: feature
 teaser: With the Array of Things program, environmental inequity meets urban technology.

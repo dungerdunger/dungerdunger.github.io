@@ -21,7 +21,7 @@ layout: default
 			{% endfor %}
 			</ul>
 		{% endif %}
-		{% if page.link %}
+		{% if page.link and page.url contains "/design/" %}
 			<a href="{{ page.link }}" class="btn" target="_blank">Visit Site</a>
 		{% endif %}	
 	</div>
@@ -32,10 +32,17 @@ layout: default
 			{{ content }}
 		{% endif %}
 	</div>
+	<div class="jump">
+		<p>Read the full piece at <br><em><a href="{{ page.link }}" target="_blank">{{ page.client }}</a></em></p>
+		<img src="{{ site.url }}/assets/img/{{ page.client-logo }}" alt="">
+	</div>
 </article>
 <section id="related" class="">				
 	{% if page.url contains "/design/" %}
 		{% assign items = site.design | sort: 'pubdate' %}
+	{% else if page.url contains "/writing/" %}
+		{% assign items = site.writing | sort: 'pubdate' %}
+	{% endif %}
 		<ul>
 		{% for item in items reversed %}
 			{% if item.title != page.title %}
@@ -52,6 +59,6 @@ layout: default
 			{% endif %}
 		{% endfor %}
 		</ul>
-	{% endif %}
+	
 </section>
 	

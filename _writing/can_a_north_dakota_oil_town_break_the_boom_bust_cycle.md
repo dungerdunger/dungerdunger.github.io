@@ -1,6 +1,7 @@
 ---
 title: Can a North Dakota Oil Town Break the Boom-Bust Cycle?
 client: The Atlantic
+client-logo: atlantic.svg
 pubdate: 2016-08-08 
 type: report
 teaser: After oil prices plummeted, Williston residents were left wondering if their city could turn short-term gains into long-term growth.
@@ -9,7 +10,6 @@ featured: true
 img: assets/img/boom.jpg
 img-background_size: auto 120%
 img-background_position: 80% 10%
-
 show_on_home: true
 ---
 
