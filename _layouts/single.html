@@ -32,10 +32,12 @@ layout: default
 			{{ content }}
 		{% endif %}
 	</div>
-	<div class="jump">
-		<p>Read the full piece at <br><em><a href="{{ page.link }}" target="_blank">{{ page.client }}</a></em></p>
-		<img src="{{ site.url }}/assets/img/{{ page.client-logo }}" alt="">
-	</div>
+	{% if page.url contains "/writing/" %}
+		<div class="jump">
+			<p>Read the full piece at <br><em><a href="{{ page.link }}" target="_blank">{{ page.client }}</a></em></p>
+			<img src="{{ site.url }}/assets/img/{{ page.client-logo }}" alt="">
+		</div>
+	{% endif %}
 </article>
 <section id="related" class="">				
 	{% if page.url contains "/design/" %}
