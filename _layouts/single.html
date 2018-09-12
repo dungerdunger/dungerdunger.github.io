@@ -26,11 +26,15 @@ layout: default
 		{% endif %}	
 	</div>
 	<div class="item-content">
-		{{ content }}
+		{% if page.url contains "/writing/" %}
+			{{ page.excerpt }}
+		{% else %}	
+			{{ content }}
+		{% endif %}
 	</div>
 </article>
 <section id="related" class="">				
-	{% if page.url contains "design" %}
+	{% if page.url contains "/design/" %}
 		{% assign items = site.design | sort: 'pubdate' %}
 		<ul>
 		{% for item in items reversed %}

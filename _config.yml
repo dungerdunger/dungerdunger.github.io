@@ -35,6 +35,7 @@ kramdown:
 collections:
   writing:
     output: true
+    permalink: /writing/:name
   design:
     output: true
     permalink: /design/:name
@@ -46,6 +47,11 @@ defaults:
   - scope:
       path: ""
       type: "design"
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: "writing"
     values:
       layout: single
 

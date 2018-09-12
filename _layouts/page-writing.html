@@ -18,10 +18,10 @@ layout: default
 		<div class="col" id="col1">
 		{% for item in items reversed offset: halfItems %}
 			<li class="item">
-				<a href="{{ item.link }}" target="_blank"><img src="{{ site.url }}/{{ item.img }}" alt="{{ item.title }}"></a>
+				<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt="{{ item.title }}"></a>
 				<div class="item-text">
 					<h4 class="item-kicker">{{ item.type }}</h4>
-					<h3 class="item-title"><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
+					<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
 					<small class="item-client">{{ item.client }}</small>
 					<small class="item-bull">&nbsp;&bull;&nbsp;</small>
 					<small class="item-pubdate">{{ item.pubdate | date: "%b. %-d, %Y" }}</small>
@@ -33,10 +33,10 @@ layout: default
 		<div class="col" id="col2">
 		{% for item in items reversed limit: halfItems %}
 			<li class="item">
-				<a href="{{ item.link }}" target="_blank"><img src="{{ site.url }}/{{ item.img }}" alt="{{ item.title }}"></a>
+				<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt="{{ item.title }}"></a>
 				<div class="item-text">
 					<h4 class="item-kicker">{{ item.type }}</h4>
-					<h3 class="item-title"><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
+					<h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
 					<small class="item-client">{{ item.client }}</small>
 					<small class="item-bull">&nbsp;&bull;&nbsp;</small>
 					<small class="item-pubdate">{{ item.pubdate | date: "%b. %-d, %Y" }}</small>
