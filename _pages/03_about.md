@@ -5,6 +5,7 @@ permalink: /about/
 img: /assets/img/dju.jpg
 img-background_size: 120% auto
 img-background_position: 0 70px 
+icon: design-avatar2
 ---
 
 My name is David J. Unger, and I am a writer and designer.

@@ -5,6 +5,7 @@ permalink: /design/
 img: assets/img/benchmarking-big-blank.jpg
 img-background_size: auto 130%
 img-background_position: 100% 0
+icon: design
 ---
 
 I design print and digital materials for non-profits, small businesses, and publications. 
