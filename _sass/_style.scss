@@ -296,6 +296,21 @@ body[class*=single] {
 					color:$color1-light;
 				}
 			}
+			&:after {
+				content:"dju";
+				text-align:center;
+				width:75px;
+				display:block;
+				border-top:solid .025rem $color1-lightest;
+				font-style:italic;
+				color:$color1-lightest;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:60px;
+				padding-top:5px;
+				font-size:.8rem;
+
+			}
 		}
 	}
 }
@@ -332,6 +347,7 @@ body.single-writing {
 					}
 				}
 			}
+			
 		}
 	}
 }
