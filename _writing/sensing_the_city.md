@@ -22,6 +22,8 @@ AoT is the brainchild of Charlie Catlett, the project lead and a senior computer
 
 In June 2012, Catlett began several years of conversations with scientists and city officials about what a functional city-wide sensor network might look like—what it should measure, and how it might be deployed. In 2015, the National Science Foundation awarded the University of Chicago a $3.1 million grant to support AoT’s development. The effort adopted the name “Array of Things”—a sort of portmanteau of “array telescope” and the “internet of things”—to suggest a distributed but unified, discrete but interconnected, collection of measuring instruments aimed at understanding life in the city.
 
+<!--more-->
+
 AoT is an early foray into an urban design revolution based on the principle that massive amounts of new data can help identify and repair urban woes. It places Chicago at the epicenter of a global “Smart-City” revolution. Metropolises across the globe seek to adopt AoT or technology like it, hoping that a smarter, more connected, and more analyzed city means a cleaner, safer, and less-congested one.
 
 Cities are entering “a fourth stage of modern transformational change,” according to a February 2016 White House report on urban technology. The first came about with the steam engine, the second with the power grid, and the third was made possible by reliable mass transit. Now, the report says, “new physical and digital technologies” offer innovative solutions to twenty-first-century problems.

@@ -254,7 +254,6 @@ body[class*=single] {
 			.item-text {
 				position:relative;
 				a.btn {
-
 					@media (min-width:1000px) {
 						position:absolute;
 						bottom:0;
@@ -265,8 +264,72 @@ body[class*=single] {
 				}
 			}
 			.item-content {
+				position:relative;
 				img:first-of-type {
-					margin-top:20px;
+					//margin-top:20px;
+				}
+			}
+			.jump {
+				text-align:center;
+				position:absolute;
+				bottom:0;
+				left:0;
+				width:100%;
+				background-image:linear-gradient(to top, rgba(255,255,255,1) 45%, rgba(255,255,255,.75) 65%, rgba(255,255,255,0));
+				//border:solid 1px red;
+				min-height:500px;
+				display:flex;
+				flex-direction:column;
+				justify-content:flex-end;
+				img {
+					max-width:300px;
+					max-height:50px;
+					margin-top:0;
+					margin-bottom:5px;
+				}
+				a {
+					text-decoration:none;
+					color:inherit;
+				}
+				small {
+					display:block;
+					color:$color1-light;
+				}
+			}
+		}
+	}
+}
+
+body.single-writing {
+	main {
+		article {
+			.item-content {
+				p:first-of-type::first-letter {
+					font-family: 'Jacques Francois Shadow';
+					font-size:6.1rem;
+					float:left;
+					font-weight:700;
+					margin-right:15px;
+					margin-bottom:5px;
+					//margin-top:10px;
+					//color:#fff;
+					//background:$color1;
+					padding:20px;
+					//<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gravitas+One|IM+Fell+Great+Primer+SC|Jacques+Francois+Shadow|Purple+Purse|Sail" rel="stylesheet"> 
+
+				}
+				.jump {
+					p:first-of-type::first-letter {
+						font-size:inherit;
+						font-family:inherit;
+						float:none;
+						font-weight:inherit;
+						margin:0;
+						font-size:inherit;
+						background:inherit;
+						color:inherit;
+						padding:inherit;
+					}
 				}
 			}
 		}

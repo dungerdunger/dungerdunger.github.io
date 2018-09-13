@@ -25,6 +25,8 @@ Does it have to be that way? Can a boom-bust economy be molded into something th
 
 Williston is not the first city to ask itself these questions. At the tail-end of the 19th century, tens of thousands of prospectors poured through the tiny Alaskan port towns of Dyea and Skagway in search of the riches promised by the discovery of gold in Canada’s Klondike region. John Muir compared the scene in Skagway to “a nest of ants taken into a strange country and stirred up by a stick.”
 
+<!--more-->
+
 A lot has changed since then, but the contours of life in a boomtown remain the same. “When it was booming … I felt like I was actually getting a taste of what it was like in the Klondike era of Alaska, which really intrigues me,” says Rodney Mabeus, an oilman who came here from Alaska with his family at the peak of Williston’s boom.
 
 Williston’s Walmart has been a microcosm of the city’s economy. During the boom, transient workers with nowhere else to stay lived out of trucks in the Walmart’s parking lot, Mabeus and others recall. Checkout lines ran an hour or more long, and Walmart couldn’t keep the shelves stocked. “They would just bring those pallets out in the middle of the aisle and people would take their Gatorade or their chips,” Mabeus says. “They didn’t even have time to put them on the shelves.”  

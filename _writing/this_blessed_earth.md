@@ -22,6 +22,8 @@ A new book by the journalist and author Ted Genoways is the latest attempt to un
 
 We meet Rick Hammond, who raises corn, soybeans, and cattle on a piece of Nebraska land that has been in his wife’s family off and on since her great-great-grandfather Thomas Barber homesteaded on it in 1874. After four decades of hard labor, hard decisions, and at least one near-death experience, Rick is preparing to hand the operation over to the next generation, including his daughter, Meghan, and her future husband, Kyle Galloway.
 
+<!--more-->
+
 The future for this family farm — as it is for the family farm — is uncertain, just as it has always been. Like many of those who worked the land before her, Meghan has gone away from the farm, only to ultimately return. Despite her youth, she has already endured immense personal tragedy. She and Kyle demonstrate profound resilience, but they will take over the farm as commodities prices sag, fickle consumers impose stringent demands on food suppliers, and a changing climate threatens to alter the landscape — this time permanently.
 
 Shaky intergenerational transfer on a family farm, as Genoways illustrates, is as pervasive as the smell of manure. This particular family almost lost it all when Barber, after years of hardship, sold the land in 1915 and shipped off to California. But a generation later, his grandson Wayne gambled a successful business empire to buy it all back, “mostly out of sentiment for the old place,” his wife would remember, and, perhaps, because of pressure from his mother to regain what her father had lost decades before.

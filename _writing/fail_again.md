@@ -20,6 +20,8 @@ None of us could say we weren’t prepared for improvisation. The ads for the Fa
 
 > FAILURE FESTIVAL is an invitation. An invitation for you to help us engage failure in a public setting. We need you because we don’t know how to do it on our own. We don’t know whether to barrel towards it, argue with it, or sit on its lap. We don’t know if we should give it keys to our apartment, or ask it to apologize. Sometimes we cower in the corner. Sometimes we lie down and try to convince it that we are asleep… or dead.
 
+<!--more-->
+
 > We want to know what failure reveals about our world that success masks. We do not expect easy answers. We may find none at all. This is a celebration and acknowledgement of the fact that when things inevitably don’t go as we plan, somehow, we must adapt. Please help.
 
 Instead of trumpeting career highlights, the performer bios document shortcomings and insecurities (e.g. “Though she has yet to reach wide acclaim within her own family, her brother’s girlfriend has repeatedly praised her work”). When I went to order a three-day pass as advertised, there was no option to do so. In at least one message to ticketholders, there was discussion about whether or not attendees should bring their own chairs. Were I attending any other performance, I would have thought this was going to be a disaster. Since this was the Failure Festival, I couldn’t be so sure. Here was a festival dedicated to the opposite of what most festivals aspire to achieve. Over three nights, in a box under the Rockies, men and women would clamor onstage to fail miserably before their peers.

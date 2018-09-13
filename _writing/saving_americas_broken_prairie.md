@@ -29,6 +29,8 @@ On this stretch of grass, he bounces from plant species to grass species with a 
 
 This is as good an entry point as any into the complex, highly altered and highly threatened ecosystem that stretches some 1.4 million square miles down central Canada and through the U.S. heartland down to Mexico. Shove pasqueflower up your nose. Touch the grass as it waves in the wind. Hear the insects’ blanket drone. There is no etymological connection between “prairie” and “prayer,” but at times it seems there ought to be.
 
+<!--more-->
+
 “Every plant out here has a purpose, and every animal or insect that’s found here has purpose,” Shook says. “There’s a relationship between those plants and animals, and we don’t understand what that relationship is — or we may not understand the importance of it — but it’s there for a reason. And when it’s gone, who knows what we lost?”
 
 I went to North Dakota to see what I thought was the region’s defining story: The shale oil boom and bust that has reshaped the heartland’s economy and upended energy geopolitics just about everywhere. But it turns out that oil is just one part of a great transformation now underway in North America’s Great Plains and Central Lowlands, the likes of which has not been seen since the Dust Bowl. A biome that can be, in some spots, every bit as diverse and complex as a rainforest sits in the country’s backyard, and it’s coming undone.
