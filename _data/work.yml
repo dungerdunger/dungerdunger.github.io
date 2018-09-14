@@ -1,0 +1,38 @@
+- employer: Self
+  location: Chicago
+  start: 2016-04-01
+  end: present 
+  positions:
+    - title: Writer and designer
+      description: Writing nonfiction and designing marketing materials for a variety of publishers, non-profits, and other organizations
+
+- employer: The Christian Science Monitor
+  location: Boston
+  start: 2012-09-01
+  end: 2016-03-01
+  positions:
+    - title: Energy editor
+      start: 2015-07-01
+      end: 2016-03-01
+      notes:
+        - Covered 2015 UN Climate Talks from Paris using a microsite I built on the Atavist platform; Received and approved pitches; edited copy from staff writers and outside contributors
+        - Planned and hosted onstage four “Path to Paris” interviews with EPA Administrator Gina McCarthy, UN climate chief Christiana Figueres, and others
+    - title: Deputy energy/environment editor
+      start: 2015-01-01
+      end: 2015-06-01
+      notes:
+        - Developed concept and wrote copy for Recharge, a weekly email digest of global energy news for CSM; Designed custom HTML template with MailChimp
+        - Planned and hosted first “Recharge Conversation” – onstage interview in DC with EIA Administrator Adam Sieminski
+        - Edited copy from our Washington energy correspondent and other contributors
+    - title: Staff writer
+      start: 2013-08-01
+      end: 2015-01-01
+      notes:
+        - Wrote stories on global energy issues for web, and weekly print magazine – including three cover stories
+        - Exclusive interviews with Energy Secretary Ernest Moniz, IEA Executive Director Maria van der Hoeven, and others
+        - Media appearances on Fox Business Channel, Minnesota Public Radio, others
+    - title: Intern/correspondent 
+      start: 2012-09-01
+      end: 2013-08-01
+      notes:
+        - Wrote blog posts and reported articles on energy and economics for the web
