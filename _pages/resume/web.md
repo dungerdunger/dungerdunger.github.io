@@ -1,7 +1,7 @@
 ---
 layout: resume
-title: Web Resume
-permalink: /resume/web
+title: Resume
+permalink: /resume/
 img: /assets/img/dju.jpg
 img-background_size: 120% auto
 img-background_position: 0 70px 

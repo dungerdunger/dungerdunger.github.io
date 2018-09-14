@@ -16,6 +16,8 @@ published: false
 
 
 
-![boom](/assets/img/boom.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quam reprehenderit quidem iusto enim, natus fuga ipsum aliquam quibusdam corporis perspiciatis, provident nulla ullam distinctio odit asperiores labore? Deleniti, quod.
+
+
+![writing single](/assets/img/dju-american_reams.jpg)

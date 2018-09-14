@@ -7,7 +7,7 @@ img-background_size: 120% auto
 img-background_position: 0 70px 
 icon: design-avatar2
 meta-description: The full resume of David J. Unger, a writer and designer based in Chicago.
-published: true
+published: false
 exclude: true
 ---
 
