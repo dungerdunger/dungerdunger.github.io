@@ -11,5 +11,12 @@ published: true
 exclude: true
 hidden:
     - "#phone"
+    - "#oakton-community-college"
+    - "#adler-s-foreign-books"
+    - "#united-states-census-bureau"
+    - "#illinois-campus-compact-americorps-vista"
+    - "#the-spanish-ministry-of-education-and-science"
+    - "#evanston-roundtable-newspaper"
+    - "ul li ul li:not(:first-of-type) ul"
 ---
 
