@@ -58,6 +58,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|EB+Garamond:400,400i,700|Josefin+Sans:100,200,300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow" rel="stylesheet"> 
     <!-- Montserrat:100,200,300,400,500,700|Source+Code+Pro:700 -->
+		
+	{% if page.hidden %}
+		<style>
+  		{% for item in page.hidden %}
+  			{{ item }}
+  			{
+  				display:none;
+  			}
+  		{% endfor %}
+
+  	</style>
+  {% endif %}
 
 
 </head> 

@@ -3,14 +3,16 @@
 		<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
 	</div>
 	<nav>
-	{% for node in site.pages %} 
-		{% if node.title %}		
-			{% assign downtitle = node.title | downcase %}
-			<a class="nav-page {% if node.url == page.url or downtitle == page.collection %} active {% endif %}" href="{{ node.url | prepend: site.baseurl }}">
-				{% include {{ node.icon | downcase | prepend: '/svg/' | append: '.svg'}} %}
-				<p class="nav-page-title">{{ node.title }}</p>
-			</a>
-		{% endif %} 
+	{% for node in site.pages %}
+		{% unless node.exclude %} 
+			{% if node.title %}		
+				{% assign downtitle = node.title | downcase %}
+				<a class="nav-page {% if node.url == page.url or downtitle == page.collection %} active {% endif %}" href="{{ node.url | prepend: site.baseurl }}">
+					{% include {{ node.icon | downcase | prepend: '/svg/' | append: '.svg'}} %}
+					<p class="nav-page-title">{{ node.title }}</p>
+				</a>
+			{% endif %} 
+		{% endunless %}
 	{% endfor %}		
 	</nav>
 </header>
