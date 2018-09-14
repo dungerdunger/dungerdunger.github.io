@@ -9,11 +9,11 @@ tags:
   - Illustrator
   - InDesign
   - Photoshop
-img: /assets/img/cfs-base_blank.svg
+img: assets/img/cfs-base_blank.svg
 img-background_size: cover
 img-background_position: center
-img-thumb: /assets/img/cfs-350_200.svg
-img-base: /assets/img/cfs-3000_2000.svg 
+img-thumb: assets/img/cfs-350_200.svg
+img-base: assets/img/cfs-3000_2000.svg 
 show_on_home: false
 ---
 
