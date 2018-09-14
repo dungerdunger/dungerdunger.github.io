@@ -1,6 +1,6 @@
 ---
 title: American Reams
-client: The Point Magazine
+client: The Point
 client-logo: point.png
 pubdate: 2017-12-02 
 type: essay

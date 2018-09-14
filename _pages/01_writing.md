@@ -6,6 +6,7 @@ img: assets/img/boom.jpg
 img-background_size: auto 100%
 img-background_position: center
 icon: writing
+meta-description: I write features, essays, and reviews on technology, energy, the environment, the Midwest and everything else. 
 ---
 
 I write features, essays, and reviews on technology, energy, the environment, the Midwest and everything else. 

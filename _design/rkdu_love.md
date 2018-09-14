@@ -1,5 +1,5 @@
 ---
-title: Rachel Hearts David
+title: Rachel &#9829; David
 client: The Ungers
 pubdate: 2018-03-10
 type: web design
