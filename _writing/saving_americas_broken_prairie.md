@@ -10,6 +10,9 @@ featured: true
 img: assets/img/prairie.jpg
 img-background_size: auto 100%
 img-background_position: 50% 50%
+awards: 
+    - title: Renewable Natural Resources Foundation  Excellence in Journalism Award
+      date: 2018-06-29
 show_on_home: true
 ---
 

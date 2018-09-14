@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body id="{% if page.title %}{{ page.title | downcase | replace: ' ', '_' }}{% else %}home{% endif %}" class="{% if page.title %}internal{% endif %}{% if page.collection %} single-{{ page.collection }} {% endif %}" >
+		{% include header.html %}
+		<main>
+			<div id="base">
+				<div class="base-image" style="background:url('{{ site.url }}/{{ page.img }}'); background-size:{{ page.img-background_size }}; background-position:{{ page.img-background_position }};"></div>
+			</div>
+			<section id="intro">
+				<h1>{{ site.title }}</h1> 
+				<p>{{ site.description }}</p>
+				<small>{{ site.phone }} &nbsp;&bull;&nbsp; {{ site.email }} &nbsp;&bull;&nbsp; {{ site.url }}</small>
+			</section>
+			<section id="work">
+				<h2>Work</h2>
+				<ul id="jobs">
+				{% for item in site.data.work %}
+					<li class="job">
+						<div class="job-details">
+							<h3 class="job-employer">{{ item.employer }}</h3>
+							<small class="job-location">{{ item.location }}</small>
+							<small class="job-dates">{{ item.start }} - {{ item.end }}</small>	
+						</div>						
+						<ul class="job-positions">
+						{% for subitem in item.positions %}
+							<li class="job-position">
+								<h4 class="job-position-title">{{ subitem.title }}</h4>
+								<small class="job-position-title-dates">({{ subitem.start }} - {{ subitem.end }})</small>
+								<ul class="job-position-notes">
+								{% for subsubitem in subitem.notes %}
+									<li class="job-position-note">{{ subsubitem }}</li>
+								{% endfor %}
+								</ul>
+							</li>
+						{% endfor %}
+						</ul>
+					</li>
+				{% endfor %}
+				</ul>
+			</section>
+			<section id="awards">
+				<h2>Awards</h2>
+				<ul>
+				{% assign items = site.writing | sort: 'pubdate' %}
+				{% for item in items reversed %}
+					{% if item.awards %}
+						{% for subitem in item.awards %}
+						<li class="award"><strong>{{ subitem.title }}</strong> for "{{ item.title }}" in <em>{{ item.client }}</em> ({{ subitem.date | date: "%Y" }})</li>
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+				</ul>
+			</section>
+			<section id="education"></section>
+
+		</main>
+	</body>
+</html>
