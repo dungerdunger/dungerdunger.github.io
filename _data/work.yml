@@ -4,10 +4,15 @@
   end: present 
   positions:
     - title: Writer and designer
-      start: 2016-04-01
-      end: present 
       notes: 
         - Writing nonfiction and designing marketing materials for a variety of publishers, non-profits, and other organizations
+
+- employer: Northwestern University
+  division: Center for Civic Engagement
+  start: 2009-01-01
+  end: present
+  location: Evanston, Illinois
+  positions:
 
 - employer: The Christian Science Monitor
   location: Boston
@@ -39,3 +44,39 @@
       end: 2013-08-01
       notes:
         - Wrote blog posts and reported articles on energy and economics for the web
+
+- employer: United States Census Bureau
+  location: Evanston, Illinois
+  start: 2009-03-01
+  end: 2009-04-01
+  positions:
+    - title: Enumerator
+      notes: 
+        - Canvassed addresses in preparation for Census 2010
+
+- employer: Adler's Foreign Books
+  location: Evanston, Illinois
+  start: 2008-11-01
+  end: 2009
+  positions:
+    - title: Office Assistant
+      notes: 
+        - Processed online orders, approved return requests, completed other administrative work
+
+- employer: The Spanish Ministry of Education and Science
+  location: Tarazona, Aragón, Spain
+  start: 2007-09-01
+  end: 2008-05-01
+  positions:
+    - title: Teaching Assistant
+      notes: 
+        - Taught English as a second language
+
+- employer: Evanston RoundTable Newspaper
+  location: Evanston, Illinois
+  start: 2007-08-01
+  end: 2007-09-01
+  positions:
+    - title: Intern reporter
+      notes: 
+        - Wrote and edited articles, assisted with layout

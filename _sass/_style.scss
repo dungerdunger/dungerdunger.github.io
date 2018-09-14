@@ -638,3 +638,150 @@ body[class*=single] {
 	}
 }
 
+body.resume {
+	section {
+		border-top:solid 1px $color1-lightest;//#eee;
+		padding-top:2px;
+		padding-bottom:20px;
+		ul { // jobs
+			//list-style:none;
+			padding-left:25px;
+			li {  // job
+				margin-bottom:30px;
+				ul {  // positions
+					list-style:none;
+					padding-left:0;
+					margin-top:5px;
+					li { // position
+						margin-bottom:10px;
+						ul { // position-notes
+							list-style:circle;
+							padding-left:25px;
+							margin-bottom:10px;
+							li { // position-note
+								line-height:1.1;
+								font-style: italic;
+								margin-bottom:5px;
+								font-size:.9rem;
+								color:lighten($color1, 10%);
+							}
+						}
+					}
+				}
+			}
+		}
+		h2 {
+			font-weight:300;
+			text-transform:lowercase;
+			font-size:1rem;
+			color: $color1-light;
+			letter-spacing:.02rem;
+		}
+		h3 {
+			font-family:$serif;
+			margin-bottom:0;
+			font-size:1.5rem;
+			line-height:1.1;
+		}
+		small.job-position-title {
+			margin-bottom:0;
+			display:block;
+			line-height:1.1;
+			font-weight:bold;
+			span.job-position-title-dates {
+				font-weight:normal;
+			}
+		}
+		small {
+			font-size:1rem;
+		}
+		span.job-division {
+			display:block;
+			//font-weight:700;
+		}
+		small.job-location {
+			//display:block;
+
+		}
+		small.job-dates {
+			&:after {
+				content: " • ";
+				margin-left:3px;
+				margin-right:3px;
+			}
+			//display:block;
+		}
+		h4.job-position-title {
+			
+		}
+		small.job-position-title-dates {
+			font-size:1rem;
+		}
+	}
+	section#intro {
+		margin-bottom:15px;
+		//border-bottom:solid 1px #eee;
+		//padding-bottom:20px;
+		border-top:none;
+		h2 {
+			font-size:1.25rem;
+			font-weight:300;
+			color:$color1-light;
+			margin-bottom:10px;
+			text-transform:none;
+			letter-spacing:0;
+		}
+		h3 {
+			font-family:$serif;
+			font-size:2.25rem;
+			margin-bottom:10px;
+		}
+		p {
+			margin-bottom:5px;
+			line-height:1.2;
+		}
+		small {
+			margin-right:3px;
+			color:$color1-light;
+			&:after {
+				content: " • ";
+				margin-left:3px;
+			}
+			&:last-of-type {
+				&:after {
+					content: "";
+				}
+			}
+		}
+	}
+	section#education {
+		ul {
+			li {
+				margin-bottom:10px;
+				h3 {
+					font-size:1.25rem;
+				}
+				small {
+					font-size:1rem;
+				}
+			}
+		}
+	}
+	section#awards {
+		ul {
+			li {
+				margin-bottom:13px;
+				h3 {
+					font-size:1.15rem;
+					margin-bottom:5px;
+				}
+				small {
+					font-size:1rem;
+					display:block;
+					line-height:1.1;
+				}
+			}
+		}
+	}
+}
+

@@ -8,6 +8,12 @@
   subprograms:
     - name: Medill in DC
 
+- school: Oakton Community College
+  start: 2009-01-01
+  end: 2009-05-01
+  notes:
+    - Non-degree-seeking student; took classes in web and graphic design
+
 - school: Oberlin College
   degree: Bachelor of Arts
   degree-short: BA
@@ -26,5 +32,10 @@
       start: 2006-01-01
       end: 2006-01-31
       notes: Traveled through Guatemala with student human rights delegation, studying its history and politics
+    - name: The Institute of Mexican-American Culture
+      location: Guadalajara, Mexico
+      start: 2005-01-01
+      end: 2005-01-31
+      notes: Lived with host family while taking intensive Spanish course
  
 
