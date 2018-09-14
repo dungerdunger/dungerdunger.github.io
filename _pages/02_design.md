@@ -6,6 +6,7 @@ img: assets/img/benchmarking-big-blank.jpg
 img-background_size: auto 130%
 img-background_position: 100% 0
 icon: design
+meta-description: I design print and digital materials for non-profits, small businesses, and publications. 
 ---
 
 I design print and digital materials for non-profits, small businesses, and publications. 
