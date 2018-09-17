@@ -819,6 +819,14 @@ body.resume {
 		page-break-before: auto !important; 
 		page-break-after: auto !important;
 	}
+	body#about {
+		li.skill {
+			img {
+				max-width:90px !important;
+				max-height:90px !important;
+			}
+		}
+	}
 	body.resume {
 		header {
 			#branding {
