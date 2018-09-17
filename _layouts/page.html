@@ -27,15 +27,6 @@ layout: default
 				{% endfor %}
 				</ul>
 			</div>
-			
-			<div class="personal_data-group">
-				<h2>Interests</h2>
-				<ul id="interests">
-				{% for interest in site.data.personal_data.interests %}
-					<li>{{ interest }}</li>
-				{% endfor %}
-				</ul>
-			</div>
 
 			<div class="personal_data-group">
 				<h2>Gear</h2>
@@ -47,6 +38,15 @@ layout: default
 						<h4>{{ subitem[1] }}</h4>
 					</li>
 					{% endfor %}
+				{% endfor %}
+				</ul>
+			</div>
+
+			<div class="personal_data-group">
+				<h2>Interests</h2>
+				<ul id="interests">
+				{% for interest in site.data.personal_data.interests %}
+					<li>{{ interest }}</li>
 				{% endfor %}
 				</ul>
 			</div>
