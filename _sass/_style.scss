@@ -794,6 +794,12 @@ body.resume {
 			}
 		}
 	}
+	section#misc {
+		p {
+			line-height:1.2;
+			margin-bottom:5px;
+		}
+	}
 }
 
 @media print {
