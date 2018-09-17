@@ -443,12 +443,13 @@ body {
 			}
 			a.nav-page {
 				text-decoration:none;
-				display:block;
+				//display:block;
 				background:#fff;
 				padding:12px;
 				border-right:solid 1px #eee;
 				fill:$color1-lightest;
 				display:flex;
+				flex:0 0 65px;
 				align-items:center;
 				justify-content:center;
 				height:100%;
@@ -459,6 +460,7 @@ body {
 					padding-left:15px;
 					padding-top:13px;
 					padding-bottom:13px;
+					flex:0 0 55px;
 				}
 				svg {
 					width:80%;  
