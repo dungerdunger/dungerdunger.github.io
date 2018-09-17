@@ -656,6 +656,14 @@ body.resume {
 					margin-top:5px;
 					li { // position
 						margin-bottom:10px;
+						&:not(:first-of-type) {
+							small {
+								color:$color1-light;
+								font-size:.8rem;	
+								line-height:.8;
+							}
+							
+						}
 						ul { // position-notes
 							list-style:circle;
 							padding-left:25px;
@@ -668,6 +676,7 @@ body.resume {
 								color:lighten($color1, 10%);
 							}
 						}
+						
 					}
 				}
 			}

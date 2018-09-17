@@ -28,7 +28,7 @@
 								{% endif %}
 							</h3>
 
-							<small class="job-dates">{{ item.start | date: "%b. %Y" }} - {{ item.end | date: "%b. %Y" }}</small>
+							<small class="job-dates">{{ item.start | date: "%b. %Y" }} - {{ item.end | date: "%b. %Y" }}{% if item.start2 %}; {{ item.start2 | date: "%b. %Y" }} - {{ item.end2 | date: "%b. %Y" }}{% endif %}</small>
 							<small class="job-location">{{ item.location }}</small>
 								
 						</div>						
