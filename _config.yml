@@ -61,8 +61,7 @@ defaults:
 plugins:
   - jekyll-sitemap
 
-gem:
-  - octopress-autoprefixer
+gems: [jekyll-assets, autoprefixer-rails]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
