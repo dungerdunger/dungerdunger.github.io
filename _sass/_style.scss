@@ -695,9 +695,9 @@ body.resume {
 		small {
 			font-size:1rem;
 		}
-		span.job-division {
+		span.job-division {//
 			display:block;
-			//font-weight:700;
+			////font-weight:700;
 		}
 		small.job-location {
 			//display:block;
@@ -784,4 +784,58 @@ body.resume {
 		}
 	}
 }
+
+@media print {
+	@page {
+	  margin: .5in;
+	}
+	header {
+		box-shadow:none !important;
+		position:static !important;
+		nav {
+			display:none !important;
+		}
+		#branding {
+			position:static !important;
+			box-shadow:none !important;
+		}
+
+	}
+	main {
+		box-shadow: none !important;
+		position:static !important;
+		margin-top:0 !important;
+	}
+	#base {
+		display:none !important;
+	}
+	#related {
+		display:none !important;
+	}
+	img {
+		max-width: 500px !important;
+		max-height:700px !important;
+		page-break-inside: avoid !important;
+		page-break-before: auto !important; 
+		page-break-after: auto !important;
+	}
+	body.resume {
+		header {
+			#branding {
+				display: none !important;
+			}	
+		}
+		section#intro {
+			h2 {
+				display: none !important;
+			}
+		}
+		section {
+			page-break-inside: avoid !important;
+			page-break-before: auto !important; 
+			page-break-after: auto !important;
+		}
+	}
+} 
+
 
