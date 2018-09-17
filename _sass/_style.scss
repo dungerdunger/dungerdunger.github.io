@@ -884,6 +884,82 @@ body.resume {
 			page-break-after: auto !important;
 		}
 	}
+	body#print_resume {
+		main {
+			page-break-inside: avoid !important;
+			page-break-before: auto !important; 
+			page-break-after: auto !important;
+
+		}
+		section {
+			h2 {
+				margin-bottom: 2px !important;
+			}
+			ul#jobs {
+				margin-top:0 !important;
+			}
+			padding-bottom:5px !important;
+		}
+
+		section#intro {
+			padding-bottom:5px !important;
+			padding-top:0 !important;
+			margin-bottom:2px !Important;
+			h3 {
+				line-height:.2 !important;
+				margin-top:0 !important;
+			}
+			p {
+				margin-bottom:0 !important;
+			}
+			div#personal_details {
+
+			}
+		}
+		
+		.job {
+			margin-bottom:15px !important;
+		}
+		.job-details {
+			line-height:.7 !important;
+		}
+		h3 {
+			font-size:1rem !important;
+			
+		}
+		small {
+			font-size:.9rem !important;
+		}
+		.job-division {
+			display:inline !important;
+		}
+		.job-position {
+			margin-bottom:5px !important;
+		}
+		section#education, section#awards {
+			li {
+				margin-bottom:5px !important;
+				line-height:.8 !important;
+			}
+			h3 {
+				display: inline !important;
+			}
+			small {
+				display:inline !important;
+			}
+			ul {
+				margin-top: 0 !important; 
+			}
+		}
+		section#misc {
+			padding-bottom:0 !important;
+			margin-bottom:0 !important;
+			p {
+				line-height:1 !important;
+				font-size:.9rem;
+			}
+		}
+	}
 } 
 
 

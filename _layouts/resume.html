@@ -11,9 +11,16 @@
 				<h2>{{ page.title }}</h2>
 				<h3>{{ site.title }}</h3> 
 				<p>{{ site.description | remove: "My name is David J. Unger, and " }}</p>
-				{% unless page.hidden contains 'phone' %}<small id="phone">{{ site.phone }}</small>{% endunless %}
-				<small id="email">{{ site.email }}</small>
-				<small>{{ site.url | remove: "http://" }}</small>
+				<div id="personal_details">
+					{% unless page.hidden contains 'address' %}
+						<small id="address">{{ site.address }}</small>
+					{% endunless %}
+					{% unless page.hidden contains 'phone' %}
+						<small id="phone">{{ site.phone }}</small>
+					{% endunless %}
+					<small id="email">{{ site.email }}</small>
+					<small>{{ site.url | remove: "http://" }}</small>	
+				</div>
 			</section>
 			<section id="work" class="contain">
 				<h2>Work</h2>
@@ -81,7 +88,7 @@
 			<section id="misc" class="contain">
 				<h2>Misc.</h2>
 				<p><strong>Core strengths</strong>: Writing, editing, design, code</p>
-				<p><strong>Digital skills</strong>: HTML, CSS, JavaScript, Jekyll, WordPress, MailChimp, InDesign, Photoshop, Illustrator</p>
+				<p><strong>Digital skills</strong>: HTML/CSS/JavaScript, Jekyll, WordPress, MailChimp, InDesign, Photoshop, Illustrator</p>
 				<p><strong>Languages</strong>: Native English, working Spanish</p>
 			</section>
 		</main>

@@ -1,7 +1,7 @@
 ---
 layout: resume
-title: Resume
-permalink: /resume/
+title: Print resume
+permalink: /resume/print
 img: /assets/img/dju.jpg
 img-background_size: 120% auto
 img-background_position: 0 70px 
@@ -10,8 +10,6 @@ meta-description: The online resume of David J. Unger, a writer and designer bas
 published: true
 exclude: true
 hidden:
-    - "#address"
-    - "#phone"
     - "#oakton-community-college"
     - "#adler-s-foreign-books"
     - "#united-states-census-bureau"
