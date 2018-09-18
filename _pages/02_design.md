@@ -11,4 +11,4 @@ meta-description: I design print and digital materials for non-profits, small bu
 
 I design print and digital materials for non-profits, small businesses, and publications. 
 
-My aesthetic is clean but handmade and simple but dynamic. I like design that looks and feels like it was made by a living, breathing human being.
+My aesthetic is simple but engaging, and handmade but clean. I like design that looks and feels like it was made by a living, breathing person.
