@@ -1,13 +1,23 @@
 ---
-title: Miscellaneous music posters
+title: Visual Noise
 client: Various
-pubdate: 2009-06-05 
-type: web design
+pubdate: 2012-06-05 
+type: poster design
 teaser: Posters for various music bands.
 link: 
 tags:
   - photoshop
-img: assets/img/.jpg
+  - InDesign
+img: assets/img/band8-x.jpg
 published: false
 ---
 
+I have had the pleasure of designing artsy posters for various bands and performances around Chicago.
+
+
+![band1](../assets/img/band1.jpg)
+![band3](../assets/img/band3.jpg)
+![band4](../assets/img/band4.jpg)
+![band5](../assets/img/band5-l.jpg)
+![band6](../assets/img/band6.jpg)
+![band8](../assets/img/band8-x.jpg)
