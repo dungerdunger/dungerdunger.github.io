@@ -3,7 +3,7 @@ title: Visual Noise
 client: Various
 pubdate: 2012-06-05 
 type: poster design
-teaser: Posters for various music bands.
+teaser: Posters for various bands and events
 link: 
 tags:
   - photoshop
