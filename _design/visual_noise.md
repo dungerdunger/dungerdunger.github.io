@@ -3,7 +3,7 @@ title: Visual Noise
 client: Various
 pubdate: 2012-06-05 
 type: poster design
-teaser: Posters for various bands and events
+teaser: Posters for various performances and events
 link: 
 tags:
   - photoshop
@@ -12,7 +12,7 @@ img: assets/img/band8-x.jpg
 published: true
 ---
 
-I have had the pleasure of designing artsy posters for various bands and performances around Chicago.
+Over the years, I have designed posters for DreamBait, an interactive media outfit and other groups in Chicago.
 
 
 ![band1](../assets/img/band1.jpg)
