@@ -16,8 +16,9 @@ Northwestern University's Center for Civic Engagement needed a brochure to help 
 
 ![ec brochure 3](/assets/img/ecbrochure3.jpg)
 ![ec brochure 1](/assets/img/ecbrochure1.jpg)
+![ec brochure 5](/assets/img/ecbrochure5.jpg)
 ![ec brochure 2](/assets/img/ecbrochure2.jpg)
 ![ec brochure 4](/assets/img/ecbrochure4.jpg)
-![ec brochure 5](/assets/img/ecbrochure5.jpg)
+
 
 
