@@ -12,7 +12,7 @@ img: assets/img/band8-x.jpg
 published: true
 ---
 
-Over the years, I have designed posters for DreamBait, an interactive media outfit and other groups in Chicago.
+Over the years, I have designed posters for various performances and events in Chicago, including [DreamBait](http://drmbt.com/){:target="_blank"}, an interactive media outfit creates and curates immersive environments, soundscapes, and installation works.
 
 
 ![band1](../assets/img/band1.jpg)
