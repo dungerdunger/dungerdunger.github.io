@@ -2,20 +2,21 @@
 title: Fail Again
 client: The Point
 client-logo: point.png
-pubdate: 2015-07-01 
+pubdate: 2015-07-01 00:00:00 +0000
 type: essay
-teaser: The Failure Festival in Boulder, Colorado tries to confront failure on its own terms.
+teaser: The Failure Festival in Boulder, Colorado tries to confront failure on its
+  own terms.
 link: https://thepointmag.com/2015/examined-life/fail-again
 featured: true
 img: assets/img/fail.jpg
 awards:
-    - title: Pushcart Prize
-      date: 2016-05-01
-    - title: Best American Essays - Notable Essay
-      date: 2016-05-01 
----
+- title: Pushcart Prize
+  date: 2016-05-01 00:00:00 +0000
+- title: Best American Essays - Notable Essay
+  date: 2016-05-01 00:00:00 +0000
 
-There’s a little time left before the show is supposed to start, and paying audience members are gathered outside the black-box theater behind the furniture store in Boulder, Colorado. Laura Ann Samuelson, who is in charge here, is worried about the garbage bags. She has passed around a box of them to the dozen or so of us who have arrived early—performers, crew, supporters and pre-performance hangers-on. We’ve been told to put them on like ponchos. First you poke a small hole for your head in the base of the bag, then you push your head through that hole, expanding it as you move through it. Then you reach your arms up and press a finger into each of the two corners, stretching the plastic seams until they begin to tear. Then you move your arms through each hole. Colin, a friend of a friend who’s here to make a documentary, screws it up. He makes the head hole way too big, so the bag is more like a strapless dress than a poncho. I help him fix it along with my other friend, Ethan. We bunch up the bag just below his armpits, bringing the straps up over his shoulders and stretching to tie them together. It works, though I worry it will constrict his blood flow.
+---
+There is a little time left before the show is supposed to start, and paying audience members are gathered outside the black-box theater behind the furniture store in Boulder, Colorado. Laura Ann Samuelson, who is in charge here, is worried about the garbage bags. She has passed around a box of them to the dozen or so of us who have arrived early—performers, crew, supporters and pre-performance hangers-on. We’ve been told to put them on like ponchos. First you poke a small hole for your head in the base of the bag, then you push your head through that hole, expanding it as you move through it. Then you reach your arms up and press a finger into each of the two corners, stretching the plastic seams until they begin to tear. Then you move your arms through each hole. Colin, a friend of a friend who’s here to make a documentary, screws it up. He makes the head hole way too big, so the bag is more like a strapless dress than a poncho. I help him fix it along with my other friend, Ethan. We bunch up the bag just below his armpits, bringing the straps up over his shoulders and stretching to tie them together. It works, though I worry it will constrict his blood flow.
 
 The bags function surprisingly well as ponchos, but there is some trepidation as to why we must wear them in the first place, not to mention why black plastic and tape coat the windows, why the back wall of the stage is covered with a semi-transparent tarp, why there is a big bucket of sopping wet tomatoes onstage. Samuelson has something else on her mind, though. She’s worried that the bags’ false lavender scent will linger on attendees’ clothes. “Is that bad?” she asks.
 
@@ -140,15 +141,13 @@ He moved on with his new life, in the fits and starts that come in lost love’s
 
 It nearly derails the performance. We watch Ethan pause, gather himself and carry on. His story continues: He becomes interested in Feldenkrais, a physical therapy technique, and spends several years learning the practice. He begins teaching classes in Boulder and eventually opens his own practice which he calls “F*Yoga.” He unrolls a poster with a manifesto of sorts on it. It reads:
 
-F*Yoga is not exercise. No sweating.
-F*Yoga has no postures. Posing is for posers.
-F*Yoga is radically subtle pleasure and satisfaction. All the feels you want.
-F*Yoga increases choices and decreases compulsions.
-F*Yoga undoes struggle and strain.
-More than flexible bodies, F*Yoga wants flexible brains.
+F_Yoga is not exercise. No sweating.
+F_Yoga has no postures. Posing is for posers.
+F_Yoga is radically subtle pleasure and satisfaction. All the feels you want.
+F_Yoga increases choices and decreases compulsions.
+F_Yoga undoes struggle and strain.
+More than flexible bodies, F_Yoga wants flexible brains.
 
 He ends his story by holding up a box of cards advertising the Failure Festival; he was supposed to distribute them in advance as promotional materials but forgot. He shrugs. Instead, he’ll pass them around now and people can bring them to his studio to redeem for a free session.
 
 “This is your ticket to new feelings,” he says.
-
-
