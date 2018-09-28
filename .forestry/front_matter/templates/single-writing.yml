@@ -14,3 +14,5 @@ fields:
   label: Pubdate
   config:
     date_format: YYYY-MM-DD
+pages:
+- _writing/test.md
