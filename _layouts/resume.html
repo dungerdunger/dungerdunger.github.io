@@ -72,7 +72,7 @@
 			<section id="awards" class="contain">
 				<h2>Awards</h2>
 				<ul>
-				{% assign items = site.writing | sort: 'pubdate' %}
+				{% assign items = site.writing  | sort: pubdate %} <!-- | sort: 'pubdate' -->
 				{% for item in items reversed %}
 					{% if item.awards %}
 						{% for subitem in item.awards %}

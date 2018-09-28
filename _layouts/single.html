@@ -40,9 +40,9 @@ layout: default
 </article>
 <section id="related" class="">				
 	{% if page.url contains "/design/" %}
-		{% assign items = site.design | sort: 'pubdate' %}
+		{% assign items = site.design  %} <!-- | sort: 'pubdate' -->
 	{% else if page.url contains "/writing/" %}
-		{% assign items = site.writing | sort: 'pubdate' %}
+		{% assign items = site.writing  %} <!-- | sort: 'pubdate' -->
 	{% endif %}
 		<ul>
 		{% for item in items reversed %}
