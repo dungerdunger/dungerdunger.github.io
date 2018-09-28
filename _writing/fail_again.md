@@ -2,7 +2,7 @@
 title: Fail Again
 client: The Point
 client-logo: point.png
-pubdate: 2015-07-01 00:00:00 +0000
+pubdate: 2015-07-01
 type: essay
 teaser: The Failure Festival in Boulder, Colorado tries to confront failure on its
   own terms.
@@ -11,9 +11,9 @@ featured: true
 img: assets/img/fail.jpg
 awards:
 - title: Pushcart Prize
-  date: 2016-05-01 00:00:00 +0000
+  date: 2016-05-01
 - title: Best American Essays - Notable Essay
-  date: 2016-05-01 00:00:00 +0000
+  date: 2016-05-01
 
 ---
 There is a little time left before the show is supposed to start, and paying audience members are gathered outside the black-box theater behind the furniture store in Boulder, Colorado. Laura Ann Samuelson, who is in charge here, is worried about the garbage bags. She has passed around a box of them to the dozen or so of us who have arrived early—performers, crew, supporters and pre-performance hangers-on. We’ve been told to put them on like ponchos. First you poke a small hole for your head in the base of the bag, then you push your head through that hole, expanding it as you move through it. Then you reach your arms up and press a finger into each of the two corners, stretching the plastic seams until they begin to tear. Then you move your arms through each hole. Colin, a friend of a friend who’s here to make a documentary, screws it up. He makes the head hole way too big, so the bag is more like a strapless dress than a poncho. I help him fix it along with my other friend, Ethan. We bunch up the bag just below his armpits, bringing the straps up over his shoulders and stretching to tie them together. It works, though I worry it will constrict his blood flow.

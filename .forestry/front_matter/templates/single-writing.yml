@@ -1,16 +1,71 @@
 ---
-label: single-writing
+label: Single Writing
 hide_body: false
 is_partial: false
 fields:
-- type: text
-  name: title
+- name: title
   label: Title
-- type: text
-  name: client
+  type: text
+  hidden: false
+  default: ''
+- name: client
   label: Client
-- type: datetime
-  name: pubdate
+  type: text
+  hidden: false
+  default: ''
+- name: client-logo
+  label: Client logo
+  type: file
+  hidden: false
+  default: ''
+- name: pubdate
   label: Pubdate
+  type: datetime
+  hidden: false
+  default: ''
   config:
     date_format: YYYY-MM-DD
+    display_utc: false
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: teaser
+  label: Teaser
+  type: textarea
+  hidden: false
+  default: ''
+- name: link
+  label: Link
+  type: textarea
+  hidden: false
+  default: ''
+- name: featured
+  label: Featured
+  type: boolean
+  hidden: false
+  default: ''
+- name: img
+  label: Img
+  type: file
+  hidden: false
+  default: ''
+- name: awards
+  label: Awards
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: date
+    label: Date
+    type: datetime
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+pages:
+- _writing/test.md
