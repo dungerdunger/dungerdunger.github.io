@@ -1,15 +1,16 @@
 ---
-title: ‘This Blessed Earth’
+title: "‘This Blessed Earth’"
 client: Undark
 client-logo: undark.png
-pubdate: 2017-10-20 
+pubdate: 2017-10-20 05:01:00 +0000
 type: review
-teaser: Ted Genoways’ book looks at the forces shaping prairie life, including the climate shortsightedness that could give us another Dust Bowl.
+teaser: Ted Genoways’ book looks at the forces shaping prairie life, including the
+  climate shortsightedness that could give us another Dust Bowl.
 link: https://undark.org/article/book-review-genoways-this-blessed-earth/
 featured: true
 img: assets/img/blessed-base.jpg
----
 
+---
 On July 4, 1886, Theodore Roosevelt spoke at an Independence Day celebration in Dickinson, Dakota Territory. “It is not what we have that will make us a great nation,” the future president told the crowd. “It is the way in which we use it.” 
 
  This question of stewardship is central to the American experiment. Simply defining the terms is a persistent struggle. For Roosevelt, “we” referred to white, European immigrants, and “what we have” was a function of what was taken — violently, deceptively — from those who had lived on the land for millennia. Today, the questions of who “we” are, what we have, how we got it, and how we use it undergird a high-stakes national identity crisis. Just check Twitter.
@@ -46,4 +47,4 @@ That’s too bad. Now more than ever, it’s critical for hyper-stimulated urban
 
 Donald Trump’s ascension to the presidency set a rush of liberal city-dwellers scrambling to understand a Middle America they could not recognize as their own. J.D. Vance’s “Hillbilly Elegy” became a must-read, and national newspapers pledged to send more reporters into the sprawling, more rectangular states. “This Blessed Earth” isn’t particularly political — and the Hammonds defy stereotypical red-state politics — but that’s what makes the book a vital addition to the library of rural-urban compassion. In attempting to bridge this divide, there is always the danger of otherizing. Genoways, himself a self-professed “city kid” with his own family ties to farming, is instead careful to just humanize.
 
-We city kids go to farmers’ markets, buy local food, and feel good about ourselves for doing it, but do we really know a thing about what it takes to get that grass-fed, organic, antibiotic-free beef from farm to fork? “This Blessed Earth” brings us closer to knowing the complexity, tragedy, ugliness, and beauty of the Americans who use land to feed us. 
+We city kids go to farmers’ markets, buy local food, and feel good about ourselves for doing it, but do we really know a thing about what it takes to get that grass-fed, organic, antibiotic-free beef from farm to fork? “This Blessed Earth” brings us closer to knowing the complexity, tragedy, ugliness, and beauty of the Americans who use land to feed us.
