@@ -2,17 +2,15 @@
 title: American Reams
 client: The Point
 client-logo: point.png
-pubdate: 2017-12-02 
+pubdate: 2017-12-02 06:02:00 +0000
 type: essay
 teaser: You touch a touchscreen, but paper touches you.
 link: https://thepointmag.com/2017/examined-life/american-reams-paper2017
 featured: true
 img: assets/img/paper.jpg
 show_on_home: false
+
 ---
-
-
-
 Old Mohawk Paper company lore has it that in 1946, a salesman named George Morrison handed his client in Boston a trial grade of paper so lush and even, so uniform and pure, that the client could only reply, “George, this is one super fine sheet of paper.”
 
 Mohawk Superfine was born.
