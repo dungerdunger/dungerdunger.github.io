@@ -1,7 +1,7 @@
 ---
 title: Visual Noise
 client: Various
-pubdate: 2012-06-05 
+pubdate: 2012-06-05 06:02:00 +0000 
 type: poster design
 teaser: Posters for various performances and events
 link: 

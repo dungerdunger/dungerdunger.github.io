@@ -1,7 +1,7 @@
 ---
 title: Rachel &#9829; David
 client: The Ungers
-pubdate: 2018-03-10
+pubdate: 2018-03-10 06:02:00 +0000 
 type: web design
 teaser: Online fun in anticipation of an important day
 link: http://www.rkdu.love

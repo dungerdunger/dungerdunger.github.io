@@ -1,7 +1,7 @@
 ---
 title: Unifying Chicago Field Studies
 client: Northwestern University
-pubdate: 2018-07-06 
+pubdate: 2018-07-06 06:02:00 +0000 
 type: branding + print design
 teaser: Custom brand guidelines and print marketing for Northwestern University's academic internships program 
 link:

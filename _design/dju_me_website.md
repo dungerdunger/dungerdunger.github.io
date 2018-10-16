@@ -1,7 +1,7 @@
 ---
 title: dju.me
 client: David J. Unger
-pubdate: 2018-09-15 
+pubdate: 2018-09-15 06:02:00 +0000 
 type: web design
 teaser: The custom, Jekyll-generated static portfolio website you are currently perusing 
 link: 

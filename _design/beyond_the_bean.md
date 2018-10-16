@@ -1,7 +1,7 @@
 ---
 title: Beyond the Bean
 client: Northwestern University
-pubdate: 2016-12-01 
+pubdate: 2016-12-01 06:02:00 +0000 
 type: marketing campaign
 teaser: A transit-themed "Go Beyond the Bean" marketing campaign for Northwestern University's summer service-learning program.
 link:

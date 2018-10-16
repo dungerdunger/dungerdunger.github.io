@@ -1,7 +1,7 @@
 ---
 title: Revisiting the Summer of Love
 client: Northwestern University
-pubdate: 2017-07-01 
+pubdate: 2017-07-01 06:02:00 +0000 
 type: branding + print design
 teaser: A visual identity that puts a retro spin on the standard Northwestern look for a conference celebrating the 50th anniversary of 1967's Summer of Love
 link:

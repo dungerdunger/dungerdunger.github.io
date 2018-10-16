@@ -1,7 +1,7 @@
 ---
 title: sucasacw.org
 client: Su Casa Catholic Worker
-pubdate: 2017-01-30 
+pubdate: 2017-01-30 06:02:00 +0000 
 type: web design
 teaser: A responsive Wordpress website for Su Casa
 link: http://www.sucasacw.org

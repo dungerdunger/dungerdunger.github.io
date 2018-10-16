@@ -13,7 +13,7 @@ layout: default
 </section>	
 <section id="page-portfolio" class="contain">
 	<ul class="items">
-	{% assign items = site.design | sort: pubdate %} <!-- | sort: 'pubdate' -->
+	{% assign items = site.design | sort: "pubdate" %} <!-- | sort: 'pubdate' -->
 	{% assign halfItems = items.size | divided_by: 2.0 | floor %}
 		<div class="col" id="col1">
 		{% for item in items reversed offset: halfItems %}

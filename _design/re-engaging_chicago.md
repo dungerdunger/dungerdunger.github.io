@@ -1,7 +1,7 @@
 ---
 title: Re-Engaging Chicago
 client: Northwestern University
-pubdate: 2018-02-05 
+pubdate: 2018-02-05 06:02:00 +0000 
 type: web design
 teaser: A custom-built Wordpress website for  Northwestern University's summer service-learning program
 link: http://www.engagechicago.org
