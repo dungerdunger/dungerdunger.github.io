@@ -2,7 +2,7 @@
 title: Fail Again
 client: The Point
 client-logo: point.png
-pubdate: 2015-07-01 00:00:00 +0000
+pubdate: 2015-07-01 05:02:00 +0000
 type: essay
 teaser: The Failure Festival in Boulder, Colorado tries to confront failure on its
   own terms.
