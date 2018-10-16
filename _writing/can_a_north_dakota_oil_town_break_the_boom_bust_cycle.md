@@ -2,18 +2,19 @@
 title: Can a North Dakota Oil Town Break the Boom-Bust Cycle?
 client: The Atlantic
 client-logo: atlantic.svg
-pubdate: 2016-08-08 
+pubdate: 2016-08-08 05:03:00 +0000
 dateline: WILLISTON, N.D.
 type: report
-teaser: After oil prices plummeted, Williston residents were left wondering if their city could turn short-term gains into long-term growth.
+teaser: After oil prices plummeted, Williston residents were left wondering if their
+  city could turn short-term gains into long-term growth.
 link: https://www.theatlantic.com/business/archive/2016/08/can-a-north-dakota-oil-town-break-the-boom-bust-cycle/494747/
 featured: true
 img: assets/img/boom.jpg
 img-background_size: auto 120%
 img-background_position: 80% 10%
 show_on_home: true
----
 
+---
 Downtown is back to normal. There are little cafés, gift shops stocked with knick knacks, and a J.C. Penney’s. The Miss North Dakota parade recently marched down Main Street. On a recent Tuesday night, a city commission considered Cugini Italian Bistro’s application for an alcoholic beverage license.
 
 Things are quiet here, and if it weren’t for the rows of new, empty houses circling the outskirts of town, and the gas flares winking on the horizon, one would never know this was the site of an oil boom. Williston, N.D.—or, Boomtown, U.S.A., as local tourism materials call it—is synecdochic for U.S. shale country, where oil firms mastered a decades-old drilling technique and flooded the market with American oil.
