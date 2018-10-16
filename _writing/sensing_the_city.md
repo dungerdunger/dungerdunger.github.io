@@ -2,14 +2,14 @@
 title: Sensing the City
 client: South Side Weekly
 client-logo: ssw.png
-pubdate: 2018-01-24 
+pubdate: 2018-01-24 06:02:00 +0000
 type: feature
 teaser: With the Array of Things program, environmental inequity meets urban technology.
 link: https://projects.southsideweekly.com/sensing-the-city/
 featured: true
 img: assets/img/array.jpg
----
 
+---
 It's called “the nursery.” A half-dozen white-domed machines lie on racks in a high-ceilinged room at Argonne National Laboratory, about half an hour west of the city. With the low, winter afternoon sun hitting them just right, it’s not a stretch to imagine them as eggs warming in an incubator.
 
 These little plastic nodes are packed with sensors and backed by millions in federal funding. Eventually, the microwave-sized devices will make their way out to lampposts in Chicago or Detroit or Denver or beyond to quietly measure the world around them. They’ll look for traffic patterns, and they’ll measure sound. They’ll count particles in the air and note the amount of carbon monoxide, sulfur dioxide, and other pollutants present. They’ll measure vibration, magnetic fields, and light. And if all goes according to plan, they’ll send this information back to a database where scientists, city officials, hacktivists, and residents will be able to access and analyze the streams of hyperlocal data.
@@ -107,12 +107,3 @@ In the end, the fundamental tension of AoT is the same. Byron Sigcho, director o
 “Research is only as good as it addresses the needs of the community. If it doesn’t, we have to ask, well, whom is that research for?”
 
 *Reporting for this story was made possible in part by a fellowship from Northwestern University's Social Justice News Nexus.*
-
-
-
-
-
-
-
-
-
