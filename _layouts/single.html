@@ -10,6 +10,9 @@ layout: default
 </section>
 <article class="page-content contain">
 	<div class="item-text">
+		{% if page.new == true %}
+			<div class="item-new">NEW!</div>
+		{% endif %}
 		<h4 class="item-kicker">{{ page.type }}</h4>
 		<h3 class="item-title">{{ page.title }}</h3>
 		<small class="item-client">{{ page.client }} &nbsp;&bull;&nbsp;</small>

@@ -35,6 +35,9 @@ layout: default
 		<div class="col" id="col2">
 		{% for item in items reversed  %} <!-- limit: halfItems -->
 			<li class="item" style="display:{% cycle 'none;', 'block;' %}"">
+			{% if item.new == true %}
+				<div class="item-new">NEW!</div>
+			{% endif %}
 				<a href="{{ item.url }}"><img src="{{ site.url }}/{{ item.img }}" alt=""></a>
 				<div class="item-text">
 					<h4 class="item-kicker">{{ item.type }}</h4>

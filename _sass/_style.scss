@@ -7,6 +7,10 @@ $color1:#444;
 $color1-light:lighten($color1, 30%);
 $color1-lightest:lighten($color1, 50%);
 
+// from: https://flatuicolors.com/palette/defo
+$ui-red:#e74c3c;
+$ui-red-dark:#c0392b;
+
 .contain {
 	max-width:1000px;
 	margin-left:10px;
@@ -73,6 +77,7 @@ ul.items {
 		}
 	}
 	li.item {
+
 		img {
 			width:100%;
 			height:65vw;
@@ -81,13 +86,33 @@ ul.items {
 	}
 }
 
+.item-new {
+	font-family:$sans-serif;
+	color:#fff;
+	background:$ui-red;
+	
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:3px;
+	//width:25%;
+	//text-align:right;
+	//padding-bottom:5px;
+	display:table;
+	
+	font-size:.6rem;
+	margin-bottom:4px;
+	letter-spacing:.05rem;
+}
+
 .item {
 		display:grid;
 		grid-template-columns:100%;
 		margin-bottom:20px;
+		position:relative;
 		-webkit-column-break-inside: avoid;
 		          page-break-inside: avoid;
 		               break-inside: avoid;
+		
 		img {	
 			//width:calc(100% - 15px);
 			@media (min-width:1000px) {
@@ -95,6 +120,13 @@ ul.items {
 					height: 264px;  
 				}
 			}
+		}
+
+		.item-new {
+			position:absolute;
+			top:0;
+			left:0;
+
 		}
 		.item-text {
 			//margin-top:-40px;
@@ -216,6 +248,7 @@ ul#gear {
 
 h4.item-kicker {
 	margin-bottom:5px;
+	color:#666;
 }
 h3.item-title {
 	font-size:1.75rem;
