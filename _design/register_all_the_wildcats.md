@@ -46,4 +46,6 @@ The efforts have helped the university grow its voting rate to [64 percent](http
 
 ![stickers](../assets/img/nuvotes-stickers.png)
 
+![voting map](../assets/img/voting_map.svg)
+
 ![i voted sticker](../assets/img/i_voted_sticker.png)
