@@ -16,9 +16,7 @@ img-background_position: 77% 0
 show_on_home: true
 
 ---
-Engage Chicago is a summer field study program run by Northwestern University's Center for Civic Engagement in which undergraduates from across the world live, learn, and serve in the greatest city on the planet. To drum up excitement or the 2018 session, I worked with program coordinators to plan a free Chicago-style-hot-dogs give-away on Northwestern's campus. For the event, I designed various print materials which play on vintage diagrams of classic ingredients in a Chicago-style hot dog.
 
-![hotdog front](/assets/img/hotdog-front.svg)
-![hotdog back](/assets/img/hotdog-back.svg)
-![hotdog poster](/assets/img/hotdog-poster.svg)
-![hotdog poster](/assets/img/hotdog-outside.jpg)
+Engage Chicago is a summer field-study program run by Northwestern University's Center for Civic Engagement in which undergraduates from across the world live, learn, and serve in the greatest city on the planet. To drum up excitement or the 2018 session, I worked with program coordinators to plan a free Chicago-style-hot-dogs give-away on Northwestern's campus. For the event, I designed various print materials which play on vintage diagrams of classic ingredients in a Chicago-style hot dog.
+
+![hotdog front](/assets/img/hotdog-front.svg) ![hotdog back](/assets/img/hotdog-back.svg) ![hotdog poster](/assets/img/hotdog-poster.svg) ![hotdog poster](/assets/img/hotdog-outside.jpg)
