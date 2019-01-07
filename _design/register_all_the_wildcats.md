@@ -13,7 +13,7 @@ tags:
   - photoshop
 img: assets/img/nuvotes-tshirt1-x.jpg
 published: true
-new: true
+new: false
 ---
 
 
