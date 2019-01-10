@@ -12,7 +12,7 @@ tags:
 - indesign
 - illustrator
 - photoshop
-img: assets/img/nuvotes-tshirt1-x.jpg
+img: assets/img/dist/nuvotes-tshirt1-x.jpg
 published: true
 new: false
 ---
@@ -32,18 +32,18 @@ The efforts have helped the university grow its voting rate to [64 percent](http
 
 </div>
 
-![homepage](../assets/img/nuvotes-homepage.jpg)
-![tshirt1](../assets/img/nuvotes-tshirt1-x.jpg)
-![tshirt2](../assets/img/nuvotes-tshirt2-x.jpg)
+![homepage](../assets/img/dist/nuvotes-homepage2.jpg)
+![tshirt1](../assets/img/dist/nuvotes-tshirt1-x.jpg)
+![tshirt2](../assets/img/dist/nuvotes-tshirt2-x.jpg)
 
  
-![map](../assets/img/nuvotes-map.png)
+![map](../assets/img/dist/nuvotes-map.jpg)
  
 
-![daily ads](../assets/img/nuvotes-daily_ads.jpg)
+![daily ads](../assets/img/dist/nuvotes-daily_ads.jpg)
 
-![stickers](../assets/img/nuvotes-stickers.png)
+![stickers](../assets/img/dist/nuvotes-stickers.jpg)
 
 ![voting map](../assets/img/voting_map.svg)
 
-![i voted sticker](../assets/img/i_voted_sticker.png)
+![i voted sticker](../assets/img/dist/i_voted_sticker.jpg)
