@@ -21,23 +21,23 @@ In December of 2015, I traveled to Paris to cover the UN climate talks for [The 
 
 <br />
 
-![nieman](/assets/img/summit-nieman.png)
+![nieman](/assets/img/dist/summit-nieman.jpg)
 
-![splash](/assets/img/summit-splash.jpg)
+![splash](/assets/img/dist/summit-splash.jpg)
 
-![reading](/assets/img/summit-reading.jpg)
+![reading](/assets/img/dist/summit-reading.jpg)
 
-![flight](/assets/img/summit-flight.jpg) 
+![flight](/assets/img/dist/summit-flight.jpg) 
 
-![map](/assets/img/summit-map.png)
+![map](/assets/img/dist/summit-map.jpg)
 
-![tables](/assets/img/summit-tables.jpg) 
+![tables](/assets/img/dist/summit-tables.jpg) 
 
-![email](/assets/img/summit-email.png)
+![email](/assets/img/dist/summit-email.jpg)
 
 ![track changes](../assets/img/summit-trackchanges.gif)
 
-![draft](/assets/img/summit-draft.jpg)
+![draft](/assets/img/dist/summit-draft.jpg)
 
 
 
