@@ -10,7 +10,7 @@ tags:
 - html/css
 - journalism
 - photography
-img: assets/img/earth.png
+img: assets/img/dist/earth.jpg
 published: true
 new: false
 ---
