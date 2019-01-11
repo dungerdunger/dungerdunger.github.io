@@ -23,6 +23,6 @@ I built a handmade wedding website with help from my now-wife Rachel. We had a l
 ![rkdu map](../assets/img/dist/rkdu-map.jpg)
 ![rkdu stmary](../assets/img/dist/rkdu-stmary.jpg)
 ![rkdu gallery](../assets/img/dist/rkdu-gallery.jpg)
-<div style="background-color:#445C47;"> <img src="/assets/img/thankyou_splash.png" style="margin-bottom:-8px; padding:0;" alt=""> 
+<div style="background-color:#445C47;margin-top:-14px;"> <img src="/assets/img/thankyou_splash.png" style="margin-bottom:-8px; padding:0;" alt=""> 
 
 
