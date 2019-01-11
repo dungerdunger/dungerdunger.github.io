@@ -21,9 +21,9 @@ I built a handmade wedding website with help from my now-wife Rachel. We had a l
 ![rkdu sketch](../assets/img/dist/rkdu-sketch-x2.jpg)
 ![rkdu dog](../assets/img/dist/rkdu-dog.jpg)
 ![rkdu map](../assets/img/dist/rkdu-map.jpg)
-![rkdu stmary](../assets/img/dist/rkdu-stmary.jpg)
-![rkdu gallery](../assets/img/dist/rkdu-gallery.jpg)
 ![rkdu cps](../assets/img/dist/cpsdrawing.jpg)
+![rkdu gallery](../assets/img/dist/rkdu-gallery.jpg)
+![rkdu stmary](../assets/img/dist/rkdu-stmary.jpg)
 <div style="background-color:#445C47;margin-top:-14px;"> <img src="/assets/img/thankyou_splash.png" style="margin-bottom:-8px; padding:0;" alt=""> 
 
 
