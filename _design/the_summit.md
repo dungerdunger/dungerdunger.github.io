@@ -4,7 +4,7 @@ client: The Christian Science Monitor
 pubdate: 2015-12-01 06:02:00 +0000
 type: microsite
 teaser: A multimedia microsite to aid in showcase the Monitor's coverage of the 2015 Paris climate talks
-link: http://www.projects.csmonitor.com/summit
+link: http://projects.csmonitor.com/summit
 tags:
 - atavist
 - html/css
