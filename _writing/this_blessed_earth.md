@@ -8,7 +8,7 @@ teaser: Ted Genoways’ book looks at the forces shaping prairie life, including
   climate shortsightedness that could give us another Dust Bowl.
 link: https://undark.org/article/book-review-genoways-this-blessed-earth/
 featured: true
-img: assets/img/blessed-base.jpg
+img: assets/img/dist/blessed-base.jpg
 
 ---
 On July 4, 1886, Theodore Roosevelt spoke at an Independence Day celebration in Dickinson, Dakota Territory. “It is not what we have that will make us a great nation,” the future president told the crowd. “It is the way in which we use it.” 
