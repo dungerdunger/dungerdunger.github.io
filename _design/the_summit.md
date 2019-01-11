@@ -27,8 +27,6 @@ In December of 2015, I traveled to Paris to cover the UN climate talks for [The 
 
 ![reading](/assets/img/dist/summit-reading.jpg)
 
-![flight](/assets/img/dist/summit-flight.jpg) 
-
 ![map](/assets/img/dist/summit-map.jpg)
 
 ![tables](/assets/img/dist/summit-tables.jpg) 
@@ -39,5 +37,5 @@ In December of 2015, I traveled to Paris to cover the UN climate talks for [The 
 
 ![draft](/assets/img/dist/summit-draft.jpg)
 
-
+![flight](/assets/img/dist/summit-flight.jpg) 
 
