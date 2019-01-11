@@ -9,17 +9,17 @@ tags:
   - wordpress
   - html
   - photoshop
-img: assets/img/ec-big-blank.jpg
+img: assets/img/dist/ec-big-blank.jpg
 ---
 
 The old website for Northwestern University's summer field-study program was outdated, unresponsive, and lacked any kind of functional content management system. Over the course of a year, I worked with Engage Chicago staff to rewrite, re-organize, and redesign the entire site. The result is a clean, modern, and responsive Wordpress website with custom front- and back-ends. 
 
 <small><em>before:</em></small>
-![before](../assets/img/ec-home_old.png)
+![before](../assets/img/dist/ec-home_old.jpg)
 <small><em>after:</em></small>
-![after](../assets/img/ec-home_splash.jpg)
-![about](../assets/img/ec-about.jpg)
-![home path](../assets/img/ec-home_path.png)
-![program sketch](../assets/img/ec-sketches-program.jpg)
-![program work](../assets/img/ec-program-work.png)
+![after](../assets/img/dist/ec-home_splash.jpg)
+![about](../assets/img/dist/ec-about.jpg)
+![home path](../assets/img/dist/ec-home_path.jpg)
+![program sketch](../assets/img/dist/ec-sketches-program.jpg)
+![program work](../assets/img/dist/ec-program-work.jpg)
 

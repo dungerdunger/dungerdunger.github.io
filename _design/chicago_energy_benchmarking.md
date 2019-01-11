@@ -9,10 +9,12 @@ tags:
   - HTML
   - Leaflet
   - Data
-img: assets/img/benchmarking-big-blank.jpg
+img: assets/img/dist/benchmarking-big-blank.jpg
 published: true
 ---
 
 Are Chicago's largest buildings getting more efficient? To find out, I used city data to map which of Chicago's biggest properties have improved their energy performance as measured by the U.S. Environmental Protection Agency’s Energy Star program.
 
-![energy benchmarking full](../assets/img/benchmarking-full.jpg) ![energy benchmarking washington](../assets/img/benchmarking-washington.png) ![energy benchmarking article](../assets/img/benchmarking-article.jpg)
+![energy benchmarking full](../assets/img/dist/benchmarking-full.jpg) 
+![energy benchmarking washington](../assets/img/dist/benchmarking-washington.jpg) 
+![energy benchmarking article](../assets/img/dist/benchmarking-article.jpg)

@@ -22,7 +22,7 @@ Through a combination of academic coursework, field trips, and internship experi
 
 ![cfs brand guidelines](/assets/img/cfs-brand_guidelines.svg)
 ![cfs poster](/assets/img/cfs-poster.svg)
-![cfs live](/assets/img/cfs-live-x.jpg)  
-![cfs brand wordmark](/assets/img/cfs-wordmark.jpg)
+![cfs live](/assets/img/dist/cfs-live-x.jpg)  
+![cfs brand wordmark](/assets/img/dist/cfs-wordmark.jpg)
 ![cfs banner](/assets/img/cfs-banner.svg)
-{::comment}![cfs poster image](/assets/img/cfs-poster-image.jpg){:/comment}
+{::comment}![cfs poster image](/assets/img/dist/cfs-poster-image.jpg){:/comment}

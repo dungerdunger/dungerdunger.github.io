@@ -7,7 +7,7 @@ type: feature
 teaser: With the Array of Things program, environmental inequity meets urban technology.
 link: https://projects.southsideweekly.com/sensing-the-city/
 featured: true
-img: assets/img/array.jpg
+img: assets/img/dist/array.jpg
 
 ---
 It's called “the nursery.” A half-dozen white-domed machines lie on racks in a high-ceilinged room at Argonne National Laboratory, about half an hour west of the city. With the low, winter afternoon sun hitting them just right, it’s not a stretch to imagine them as eggs warming in an incubator.

@@ -9,7 +9,7 @@ tags:
   - html/css/js
   - illustrator
   - photoshop
-img: assets/img/rkdu-base.jpg
+img: assets/img/dist/rkdu-base.jpg
 show_on_home: true
 img-background_size: cover
 ---
@@ -17,10 +17,10 @@ img-background_size: cover
 I built a handmade wedding website with help from my now-wife Rachel. We had a lot of fun imagining our own family crest, mapping out our favorite neighborhood spots, and sharing our story with friends and family! 
 
 
-![rkdu splash](../assets/img/rkdu-splash.png)
-![rkdu sketch](../assets/img/rkdu-sketch-x2.jpg)
-![rkdu dog](../assets/img/rkdu-dog.jpg)
-![rkdu map](../assets/img/rkdu-map.png)
-![rkdu stmary](../assets/img/rkdu-stmary.jpg)
-![rkdu gallery](../assets/img/rkdu-gallery.jpg)
+![rkdu splash](../assets/img/dist/rkdu-splash.jpg)
+![rkdu sketch](../assets/img/dist/rkdu-sketch-x2.jpg)
+![rkdu dog](../assets/img/dist/rkdu-dog.jpg)
+![rkdu map](../assets/img/dist/rkdu-map.jpg)
+![rkdu stmary](../assets/img/dist/rkdu-stmary.jpg)
+![rkdu gallery](../assets/img/dist/rkdu-gallery.jpg)
 
