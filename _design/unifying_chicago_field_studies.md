@@ -21,6 +21,7 @@ new: false
 Through a combination of academic coursework, field trips, and internship experiences, Chicago Field Studies (CFS) helps Northwestern students explore critical issues in their future fields through the lens of work. I worked with the CFS team to unify various disparate branding elements under a central aesthetic based on the university's global marketing standards. This work culminated in a custom brand guidelines document which clarified the organization's mission, narrative, core attributes, and a variety of visual elements. As a first foray into the new design language, I created a series of print collateral based on the theme "Life After College, in College."      
 
 ![cfs brand guidelines](/assets/img/cfs-brand_guidelines.svg)
+![cfs brand guidelines page](/assets/img/cfs-brand_guidelines_page.svg)
 ![cfs poster](/assets/img/cfs-poster.svg)
 ![cfs live](/assets/img/dist/cfs-live-x.jpg)  
 ![cfs brand wordmark](/assets/img/dist/cfs-wordmark.jpg)
