@@ -18,8 +18,18 @@ The old website for Northwestern University's summer field-study program was out
 ![before](../assets/img/dist/ec-home_old.jpg)
 <small><em>after:</em></small>
 ![after](../assets/img/dist/ec-home_splash.jpg)
+![ec code](../assets/img/ec-code.png)
+![program sketch](../assets/img/dist/ec-sketches-program.jpg)
+
+<div id="ec-icons" class="flex">
+    <img class="ec-icon" src="/assets/img/health.svg" alt="">
+    <img class="ec-icon" src="/assets/img/law.svg" alt="">
+    <img class="ec-icon" src="/assets/img/community.svg" alt="">
+    <img class="ec-icon" src="/assets/img/service.svg" alt="">
+    <img class="ec-icon" src="/assets/img/urban_planning.svg" alt="">
+</div>
+
+![program work](../assets/img/dist/ec-program-work.jpg)
 ![about](../assets/img/dist/ec-about.jpg)
 ![home path](../assets/img/dist/ec-home_path.jpg)
-![program sketch](../assets/img/dist/ec-sketches-program.jpg)
-![program work](../assets/img/dist/ec-program-work.jpg)
 

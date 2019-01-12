@@ -1028,9 +1028,32 @@ body.resume {
 } 
 
 
+.flex {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+#ec-icons {
+	margin-bottom:30px;
+	.ec-icon {
+		flex: 1 1 100%;
+		max-width:300px;
+		@media (min-width:400px) {
+			flex: 0 0 50%;
+		}
+		@media (min-width:600px) {
+			flex: 1 1 20%;
+		}
+
+	}
+}
+
 // ie fixes
 
 
 @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
 	
 }
+
+
