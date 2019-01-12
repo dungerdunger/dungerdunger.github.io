@@ -30,6 +30,7 @@ The old website for Northwestern University's summer field-study program was out
 </div>
 
 ![program work](../assets/img/dist/ec-program-work.jpg)
+![ec law](../assets/img/ec-concentration-law.jpg)
 ![about](../assets/img/dist/ec-about.jpg)
 ![home path](../assets/img/dist/ec-home_path.jpg)
 
