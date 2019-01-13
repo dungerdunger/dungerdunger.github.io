@@ -23,3 +23,4 @@ Over the years, I have designed posters for various performances and events, inc
 ![band8](../assets/img/dist/band8-x.jpg)
 ![band5](../assets/img/dist/band5-l.jpg)
 ![band8](../assets/img/dist/band9.jpg)
+![dju poster](../assets/img/dju-poster.svg)
