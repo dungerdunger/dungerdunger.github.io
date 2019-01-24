@@ -3,7 +3,7 @@ title: The Summit
 client: The Christian Science Monitor
 pubdate: 2015-12-01 06:02:00 +0000
 type: microsite
-teaser: A multimedia microsite to aid in showcase the Monitor's coverage of the 2015 Paris climate talks
+teaser: A multimedia microsite to showcase the Monitor's coverage of the 2015 Paris climate talks
 link: http://projects.csmonitor.com/summit
 tags:
 - atavist
