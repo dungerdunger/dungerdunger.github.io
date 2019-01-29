@@ -9,6 +9,7 @@ tags:
   - wordpress
   - html
   - photoshop
+  - illustrator
 img: assets/img/dist/ec-big-blank.jpg
 ---
 
