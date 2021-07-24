@@ -13,7 +13,7 @@ My name is David J. Unger, and I work in industrial supply. I also write and des
 
 I attended Oberlin College for undergraduate studies, and I received my M.S.J. from Northwestern University's Medill School of Journalism. 
 
-I currently live with my wife [Rachel Kelly Unger](https://www.press.uchicago.edu/books/editorbio/rkelly.html){:target="_blank"} in Oak Park, IL. 
+I currently live with my wife and children in Oak Park, IL.` 
 
 You can learn even more about me [on my resume]({{ site.url }}/resume).
 
