@@ -9,13 +9,11 @@ icon: design-avatar2
 meta-description: My name is David J. Unger, and I am a writer and designer.
 ---
 
-My name is David J. Unger, and I am a writer and designer.
+My name is David J. Unger, and I work in industrial supply. I also write and design things when I can.
 
 I attended Oberlin College for undergraduate studies, and I received my M.S.J. from Northwestern University's Medill School of Journalism. 
 
 I currently live with my wife [Rachel Kelly Unger](https://www.press.uchicago.edu/books/editorbio/rkelly.html){:target="_blank"} in Oak Park, IL. 
-
-Want to work together or just say "hi"? Email me at [david at dju.me](mailto:david@dju.me)!
 
 You can learn even more about me [on my resume]({{ site.url }}/resume).
 
