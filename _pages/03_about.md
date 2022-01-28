@@ -15,7 +15,7 @@ I attended Oberlin College for undergraduate studies, and I received my M.S.J. f
 
 I currently live with my wife and children in Oak Park, IL. 
 
-You can learn even more about me [on my resume]({{ site.url }}/resume).
+<!-- You can learn even more about me [on my resume]({{ site.url }}/resume). -->
 
 
 "Who's there?" <br /> – *Hamlet* (1.1.1)
