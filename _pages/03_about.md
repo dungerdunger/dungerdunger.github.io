@@ -15,6 +15,8 @@ I attended Oberlin College for undergraduate studies, and I received my M.S.J. f
 
 I currently live with my wife and children in Oak Park, IL. 
 
+You can email me at dunger4 [at] gmail [dot] com.
+
 <!-- You can learn even more about me [on my resume]({{ site.url }}/resume). -->
 
 
