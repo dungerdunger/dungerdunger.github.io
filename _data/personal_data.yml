@@ -5,9 +5,9 @@ skills:
   - title: Jekyll
     icon: jekyll.png
     description: 
-  - title: WordPress
-    icon: wordpress.png
-    description: Flexible, widely used publishing platform
+  #- title: WordPress
+   # icon: wordpress.png
+   # description: Flexible, widely used publishing platform
   - title: Git
     icon: git.svg 
     description: 
@@ -20,9 +20,9 @@ skills:
   - title: Photoshop
     icon: photoshop.svg
     description: Image editing and touchup
-  - title: Mailchimp
-    icon: mailchimp.png
-    description: Powerful, user-friendly email marketing
+  #- title: Mailchimp
+   # icon: mailchimp.png
+   # description: Powerful, user-friendly email marketing
 
 interests:
   - The Midwest
@@ -34,17 +34,17 @@ interests:
   - The Great Lakes
   - Literature
   # - Christology
-  - Improv comedy
+  #- Improv comedy
   - Command-line interfaces
   - Paper
   - Containers
+  - Church history
 
 gear:
-  - desktop: iMac (Retina 4K, 21.5-inch, Late 2015)
   - laptop: HP Spectre x360 Convertible 15-bl1XX
-  - text editors: Sublime Text, Vi
-  - host: GitHub Pages, Dreamhost
-  - cameras: Nikon D5100 (dslr), Cannon FTb (35mm)
+  - text editor: Vi
+  - host: GitHub Pages 
+  - cameras: Cannon FTb 
   - notebooks: Midori MD A5
   - pencils: Dixon Ticonderoga No. 2
   - typewriter: Smith-Corona Sterling 12
