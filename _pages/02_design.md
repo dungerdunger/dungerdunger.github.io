@@ -9,6 +9,6 @@ icon: design
 meta-description: I design print and digital materials for non-profits, small businesses, and publications. 
 ---
 
-I design print and digital materials for non-profits, small businesses, and publications. 
+I design print and digital materials. 
 
-My aesthetic is simple but engaging, and handmade but clean. I like design that looks and feels like it was made by a living, breathing person.
+My aesthetic is simple but engaging, and handmade but clean. I like design that feels like it was made by a living, breathing person.
