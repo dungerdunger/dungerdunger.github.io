@@ -12,7 +12,7 @@ featured: true
 img: assets/img/dist/boom.jpg
 img-background_size: auto 120%
 img-background_position: 80% 10%
-show_on_home: true
+show_on_home: false
 
 ---
 Downtown is back to normal. There are little cafés, gift shops stocked with knick knacks, and a J.C. Penney’s. The Miss North Dakota parade recently marched down Main Street. On a recent Tuesday night, a city commission considered Cugini Italian Bistro’s application for an alcoholic beverage license.

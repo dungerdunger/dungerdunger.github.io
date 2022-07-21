@@ -8,6 +8,7 @@ teaser: I found myself in a plastic-covered bedroom, boiling decades of paint of
 link: https://thelampmagazine.com/issues/issue-09/nunc-dimittis/hung-in-counterbalance/
 featured: true
 img: assets/img/windows-02.jpg
+show_on_home: true
 ---
 
 Our house has old wood windows that hang on rope and pulley. Some have broken cords, and we have to prop them open to let in the breeze. Others are jammed or painted shut. Or the glass is cracked. The exterior paint and glazing have all but eroded away. Our windows are in rough shape.

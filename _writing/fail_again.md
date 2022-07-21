@@ -9,6 +9,7 @@ teaser: The Failure Festival in Boulder, Colorado tries to confront failure on i
 link: https://thepointmag.com/2015/examined-life/fail-again
 featured: true
 img: assets/img/dist/fail.jpg
+show_on_home: true
 awards:
 - title: Pushcart Prize
   date: 2016-05-01 00:00:00 +0000

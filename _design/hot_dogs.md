@@ -13,7 +13,7 @@ tags:
 img: assets/img/hotdog-detail-3000w.jpg
 img-background_size: auto 100%
 img-background_position: 77% 0
-show_on_home: true
+show_on_home: false
 
 ---
 

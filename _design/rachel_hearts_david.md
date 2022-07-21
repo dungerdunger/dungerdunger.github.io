@@ -11,7 +11,7 @@ tags:
   - photoshop
   - photography
 img: assets/img/dist/rkdu-base.jpg
-show_on_home: true
+show_on_home: false
 img-background_size: cover
 ---
 

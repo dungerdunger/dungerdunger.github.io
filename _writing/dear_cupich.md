@@ -8,6 +8,7 @@ teaser: There’d be no more celebrations of the Tridentine Mass at St. Mary’s
 link: https://www.chicagotribune.com/opinion/commentary/ct-opinion-latin-mass-cardinal-cupich-st-mary-chicago-20220128-bi7b5melz5h3nnfffdkrhjkmpi-story.html 
 featured: true
 img: assets/img/bombed_out_cologne - 02.jpg
+show_on_home: true
 ---
 
 

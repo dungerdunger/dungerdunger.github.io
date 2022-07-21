@@ -13,7 +13,7 @@ img-background_position: 50% 50%
 awards: 
     - title: Renewable Natural Resources Foundation  Excellence in Journalism Award
       date: 2018-06-29
-show_on_home: true
+show_on_home: false
 ---
 
 Out near where the continent divides, up on a ridge carved by ice over millennia, among blazing star, blue aster, purple prairie clover, harebell, and smooth brome — grasses all yet untouched by the plow — Neil Shook balls up some purple pasqueflower, shoves it into his nostril, and snorts.
